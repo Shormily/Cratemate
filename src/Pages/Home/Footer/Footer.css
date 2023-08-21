@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Arimo:ital,wght@1,700&family=Didact+Gothic&family=Galada&family=Lato:ital,wght@0,400;0,700;1,400&family=M+PLUS+1&family=M+PLUS+Rounded+1c&family=Niramit:ital,wght@1,700&family=Noto+Sans&family=Noto+Sans+Bengali:wght@500;900&family=Nunito+Sans:wght@300&family=Open+Sans:wght@300&family=Poppins:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,300;0,500;0,600;0,700;1,600;1,800;1,900&family=Roboto+Slab:wght@500&family=Work+Sans:wght@500&display=swap');
+
+
+
+
+
+
+.icn{
+    display: inline-block;
+    height:35px;
+    width: 35px;
+    margin:0 10px 10px 0;
+    text-align: center;
+    line-height:35px;
+    border-radius: 50%;
+    background-color: rgb(64, 62, 62);
+    transition:all 0.5s ease;
+    color: #f0f2fa;
+}
+.icn:hover{
+    color: #f0f2fa;
+    background:grey;
+}
+
+.footer-link{
+    font-family: 'Didact Gothic', sans-serif;
+    font-size: 13px;
+    font-weight: 500; 
+}
+
+.btn-col{
+    background-color: #DC3318;
+    font-family: 'Didact Gothic', sans-serif;
+    font-size: 13px;
+    font-weight: 200;
+}
+.logoweight{
+    font-family: 'Didact Gothic', sans-serif;
+    font-weight: 600;  
+}
+.btn-col:hover{
+    background-color: #629dad;
+    font-family: 'Didact Gothic', sans-serif;
+    font-size: 13px;
+    font-weight: 200;
+}
