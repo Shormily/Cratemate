@@ -46,7 +46,7 @@ const Servone = () => {
          </button>
        </div>
      </div>
-     <div className="ml-24 mt-8 mb-8">
+     <div className=" mt-8 mb-8">
        <div className="flex  mt-8 ">
          <img
            src="https://i.ibb.co/xJyQx5Y/CMYK-Blue-LVL-1-Big-Data-png.png"
