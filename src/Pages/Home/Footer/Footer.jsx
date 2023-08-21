@@ -12,8 +12,8 @@ const Footer = () => {
           <div className="lg:max-w-[1030px]  md:gap-8 m-auto flex flex-wrap items-center lg:justify-between mx-auto p-4">
             <div className=" items-center px-5">
               <img
-                src="/src/assets/Image/logoe.png"
-                className="h-10 mx-5"
+                src="https://i.ibb.co/Vt4MZgT/logoe.png"
+                className="h-10 mx-4"
                 alt="Flowbite Logo"
               />
               <span className="sself-center text-1xl logoweight font-semibold whitespace-nowrap text-white">
