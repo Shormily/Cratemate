@@ -10,7 +10,7 @@ const Contacts = () => {
     <h1 className=" pt-8  text-4xl text-center     text-styles">Contact Us</h1>
     <p className=" block text-[14px] mt-5 pb-8 text-center  banner-text mb-2 leading-loose text-gray-500 cont-pra">If you want to know anything about our company, please contact us. We are always happy to<br/> answer all questions.</p>
       <div className="grid lg:grid-cols-2 md:grid-cols-1 gap-8  sm:grid-cols-1 max-w-[1240px] m-auto ">
-        <div className=" pr-24 ">
+        <div className="  ">
         <div className="bg-[#EEE]   px-32 pb-32 ">
             <h1 className="text-4xl heading pt-24 block text-gray-700  font-semibold mb-2  cont-pra ">
               Request a
