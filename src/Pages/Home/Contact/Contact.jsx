@@ -3,22 +3,22 @@ import "./Contact.css";
 const Contact = () => {
   return (
     <>
-      <div className="grid lg:grid-cols-2 md:grid-cols-1 gap-8  sm:grid-cols-1 max-w-[1240px] m-auto ">
+      <div id="contact" className="grid lg:grid-cols-3 md:grid-cols-3 gap-8  sm:grid-cols-1 max-w-[1240px] m-auto">
         <div className=" ">
-          <div className="bg-[#EEE]  px-32 pb-32 ">
+          <div className="bg-[#EEE]  px-24 pb-24 ">
             <h1 className="text-4xl heading pt-24 block text-gray-700  font-semibold mb-2  cont-pra ">
               Request a
               <br />
               Consult
             </h1>
-            <p className="mt-6 block text-gray-700 text-[12px] font-semibold mb-2  cont-pra ">
+            <p className="mt-6 block text-gray-700 text-[13px] font-semibold mb-2  cont-pra ">
               If you have any questions or would like more information about our
               services, please don’t hesitate to reach out. Our team is here to
               help and answer any questions you may have.
             </p>
             <NavLink as={NavLink} to="/team">
               {" "}
-              <p className="mt-6 text-[13px] cont-pra text-red-600 cursor-pointer">
+              <p className="mt-6 text-[14px] cont-pra text-red-600 cursor-pointer">
                 Interested in joining our team ? Click Here
               </p>
             </NavLink>
@@ -28,14 +28,14 @@ const Contact = () => {
           </div>
         </div>
 
-        <div className=" pt-12 cont-pra mx-12">
+        <div className=" lg:col-span-2 md:col-span-2 mx-3  pt-12 cont-pra ">
           <div className="grid lg:grid-cols-2 md:grid-cols-1 sm:grid-cols-1 gap-8 ">
             <div className=" ">
               <label className="block text-gray-700 text-[12px] font-semibold mb-2">
                 First Name :
               </label>
               <input
-                className="appearance-none block w-full bg-gray-200 text-gray-700 border border-gray-200 rounded py-2 px-4 leading-tight focus:outline-none focus:bg-white focus:border-gray-500"
+                className="appearance-none block w-full bg-gray-200 text-gray-700 border border-gray-200  py-2 px-4 leading-tight focus:outline-none focus:bg-white focus:border-gray-500"
                 id="grid-last-name"
                 type="text"
                 placeholder=""
@@ -46,7 +46,7 @@ const Contact = () => {
                 Last Name :
               </label>
               <input
-                className="appearance-none block w-full bg-gray-200 text-gray-700 border border-gray-200 rounded py-2 px-4 leading-tight focus:outline-none focus:bg-white focus:border-gray-500"
+                className="appearance-none block w-full bg-gray-200 text-gray-700 border border-gray-200  py-2 px-4 leading-tight focus:outline-none focus:bg-white focus:border-gray-500"
                 id="grid-last-name"
                 type="text"
                 placeholder=""
@@ -57,9 +57,9 @@ const Contact = () => {
                 Company Name :
               </label>
               <input
-                  className="appearance-none block w-full bg-gray-200 text-gray-700 border border-gray-200 rounded py-2 px-4 mb-3 leading-tight focus:outline-none focus:bg-white focus:border-gray-500"
-                  id="grid-password"
-                  type="password"
+                className="appearance-none block w-full bg-gray-200 text-gray-700 border border-gray-200  py-2 px-4 mb-3 leading-tight focus:outline-none focus:bg-white focus:border-gray-500"
+                id="grid-password"
+                type="password"
                 placeholder=""
               />
             </div>
@@ -68,7 +68,7 @@ const Contact = () => {
                 Job Title :
               </label>
               <input
-                className="appearance-none block w-full bg-gray-200 text-gray-700 border border-gray-200 rounded py-2 px-4 mb-3 leading-tight focus:outline-none focus:bg-white focus:border-gray-500"
+                className="appearance-none block w-full bg-gray-200 text-gray-700 border border-gray-200  py-2 px-4 mb-3 leading-tight focus:outline-none focus:bg-white focus:border-gray-500"
                 id="grid-password"
                 type="password"
                 placeholder=""
@@ -83,7 +83,7 @@ const Contact = () => {
               Email Address :
             </label>
             <input
-              className="appearance-none block w-full bg-gray-200 text-gray-700 border  border-gray-200 rounded py-2 px-4 mb-3 leading-tight focus:outline-none focus:bg-white focus:border-gray-500"
+              className="appearance-none block w-full bg-gray-200 text-gray-700 border  border-gray-200  py-2 px-4 mb-3 leading-tight focus:outline-none focus:bg-white focus:border-gray-500"
               id="grid-password"
               type="password"
               placeholder=""
@@ -94,7 +94,7 @@ const Contact = () => {
               Phone Number :
             </label>
             <input
-              className="appearance-none block w-full bg-gray-200 text-gray-700 border border-gray-200 rounded py-2 px-4 mb-3 leading-tight focus:outline-none focus:bg-white focus:border-gray-500"
+              className="appearance-none block w-full bg-gray-200 text-gray-700 border border-gray-200  py-2 px-4 mb-3 leading-tight focus:outline-none focus:bg-white focus:border-gray-500"
               id="grid-password"
               type="password"
               placeholder=""
@@ -105,7 +105,7 @@ const Contact = () => {
               Tell us a bit about your project:
             </label>
             <textarea
-              className="appearance-none block w-full bg-gray-200 text-gray-700 border border-gray-200 rounded py-2 pb-12 px-4 mb-3 leading-tight focus:outline-none focus:bg-white focus:border-gray-500"
+              className="appearance-none block w-full bg-gray-200 text-gray-700 border border-gray-200  py-2 pb-12 px-4 mb-3 leading-tight focus:outline-none focus:bg-white focus:border-gray-500"
               id="grid-password"
               type="password"
               placeholder=""

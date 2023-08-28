@@ -7,10 +7,10 @@ const Servone = () => {
       <section className="bg-gray-100 pb-8">
         <div >   <div className="grid lg:grid-cols-2 md:grid-cols-2 sm:grid-cols-1 max-w-[1240px] m-auto">
      <div className=" pt-8 px-8 ">
-       <p className=" pt-8  text-5xl   text-styles   ">Our Services</p>
+       <p className=" pt-8  text-6xl   text-styles   ">Our Services</p>
        <p
          // className="text-white mt-4  text-base  leading-loose banner-text"
-         className="block text-[12px]  banner-text mt-5 mb-2 leading-loose text-gray-800 cont-pra"
+         className="block text-[14px]  banner-text mt-5 mb-2 leading-loose text-gray-800 cont-pra"
        >
          DTP Service, Data Processing, Image Proceesing, Software
          Development,
@@ -46,11 +46,12 @@ const Servone = () => {
          </button>
        </div>
      </div>
-     <div className=" mt-8 mb-8">
-       <div className="flex  mt-8 ">
-         <img
-           src="https://i.ibb.co/xJyQx5Y/CMYK-Blue-LVL-1-Big-Data-png.png"
-           className="w-24 h-24 mx-12"
+     <div className="
+      mt-8 mb-8">
+       <div className="flex  mt-8  mb-2 lg:w-full sm:w-96">
+       <img
+           src="https://i.ibb.co/hm72vSb/CMYK-Blue-LVL-1-OTS-Training-Datasets-png.png"
+           className="w-24 h-24 mx-8 "
            alt=""
          />
          <img
@@ -58,17 +59,29 @@ const Servone = () => {
            className="w-24 h-24  "
            alt=""
          />
-       </div>
-
-       <div className="flex mt-3 ">
-         <img
-           src="https://i.ibb.co/dtw6k5X/CMYK-Blue-LVL-1-Crowd-Platform-png.png"
-           className="w-24 h-24 mx-12"
+       <img
+          src="https://i.ibb.co/xJyQx5Y/CMYK-Blue-LVL-1-Big-Data-png.png"
+           className="w-24 h-24 ml-7"
            alt=""
          />
+       </div>
+
+       <div className="flex mt-3 lg:w-full sm:w-96">
          <img
-           src="https://i.ibb.co/hm72vSb/CMYK-Blue-LVL-1-OTS-Training-Datasets-png.png"
-           className="w-24 h-24 "
+           src="https://i.ibb.co/dtw6k5X/CMYK-Blue-LVL-1-Crowd-Platform-png.png"
+           className="w-24 h-24 mx-8"
+           alt=""
+         />
+          <img
+      
+      src="https://i.ibb.co/kJsygZd/CMYK-Blue-LVL-1-Secure-in-Saas-Customer-Internal-Workers-png.png"
+      className="w-24 h-24 "
+      alt=""
+    />
+       
+          <img
+           src="https://i.ibb.co/5RZpzN2/CMYK-Blue-LVL-1-Translate-png.png"
+           className="w-24 h-24 ml-6"
            alt=""
          />
        </div>

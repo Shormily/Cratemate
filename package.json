@@ -10,13 +10,27 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@emailjs/browser": "^3.11.0",
+    "@emotion/react": "^11.11.1",
+    "@emotion/styled": "^11.11.0",
+    "@mui/material": "^5.14.6",
+    "@mui/styled-engine-sc": "^5.14.6",
     "animate.css": "^4.1.1",
+    "emailjs-com": "^3.2.0",
+    "firebase": "^10.3.0",
     "keen-slider": "^6.8.6",
+    "pdf-lib": "^1.17.1",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
+    "react-firebase-hooks": "^5.1.1",
+    "react-hook-form": "^7.45.4",
+    "react-hot-toast": "^2.4.1",
     "react-icons": "^4.10.1",
     "react-router-dom": "^6.15.0",
-    "react-scroll-to-top": "^3.0.0"
+    "react-scroll": "^1.8.9",
+    "react-scroll-to-top": "^3.0.0",
+    "styled-components": "^5.3.11",
+    "swiper": "^10.2.0"
   },
   "devDependencies": {
     "@types/react": "^18.2.15",

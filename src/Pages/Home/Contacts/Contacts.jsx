@@ -1,47 +1,44 @@
-import { NavLink } from "react-router-dom";
+import 'animate.css';
 import Navbar from "../Navbar/Navbar";
-import Testimonials from "../Testimonials/Testimonials";
+
 const Contacts = () => {
   return (
     <>
-    <Navbar/>
-  
+      <Navbar />
 
-    <h1 className=" pt-8  text-4xl text-center     text-styles">Contact Us</h1>
-    <p className=" block text-[14px] mt-5 pb-8 text-center  banner-text mb-2 leading-loose text-gray-500 cont-pra">If you want to know anything about our company, please contact us. We are always happy to<br/> answer all questions.</p>
-      <div className="grid lg:grid-cols-2 md:grid-cols-1 gap-8  sm:grid-cols-1 max-w-[1240px] m-auto ">
-        <div className="  ">
-        <div className="bg-[#EEE]   px-32 pb-32 ">
+      <div className="grid lg:grid-cols-3 md:grid-cols-3 gap-8  sm:grid-cols-1 max-w-[1240px] m-auto ">
+        <div className="animate__animated animate__fadeInLeft  ">
+          <div className="bg-[#EEE]   px-24 pb-32 ">
             <h1 className="text-4xl heading pt-24 block text-gray-700  font-semibold mb-2  cont-pra ">
-              Request a
-              <br />
-              Consult
+              Contact Us
             </h1>
-            <p className="mt-6 block text-gray-700 text-[12px] font-semibold mb-2  cont-pra ">
-              If you have any questions or would like more information about our
-              services, please don’t hesitate to reach out. Our team is here to
-              help and answer any questions you may have.
+            <p className="mt-6 block text-gray-700 text-[13px] font-semibold mb-2  cont-pra ">
+              Got questions, suggestions, or specific requirements ? We're here
+              to assist you with wholehearted dedication!
+            </p>{" "}
+            <p className="mt-6 text-[12px] cont-pra  cursor-pointer">
+              Operating Hours: 08:00 AM ~ 5:00 PM IST (India Time)
             </p>
-            <NavLink as={NavLink} to="/team">
-              {" "}
-              <p className="mt-6 text-[13px] cont-pra text-red-600 cursor-pointer">
-                Interested in joining our team ? Click Here
-              </p>
-            </NavLink>
-            <p className="mt-8 cont-pra  cursor-pointer pb-32">
-              <span className="mx-3 testimonials "></span>Request a consult
+            <p className="mt-8 cont-pra  cursor-pointer ">
+              <span className="mx-1 testimonials "></span>{" "}
+              <span className="mt-6 text-[13px] cont-pra text-red-600 cursor-pointer">
+                Email: umesh@cratmate.com
+              </span>
+            </p>
+            <p className="mt-6 text-[13px] cont-pra text-gray-700 cursor-pointer pb-32">
+              Feel free to reach out to us anytime – we're ready to serve you!
             </p>
           </div>
         </div>
 
-        <div className=" pt-12 cont-pra mx-12">
+        <div className="lg:col-span-2 md:col-span-2 mx-3  pt-12 cont-pra animate__animated animate__fadeInRight">
           <div className="grid lg:grid-cols-2 md:grid-cols-1 sm:grid-cols-1 gap-8 ">
             <div className=" ">
               <label className="block text-gray-700 text-[12px] font-semibold mb-2">
                 First Name :
               </label>
               <input
-                className="appearance-none block w-full bg-gray-200 text-gray-700 border border-gray-200 rounded py-2 px-4 leading-tight focus:outline-none focus:bg-white focus:border-gray-500"
+                className="appearance-none block w-full bg-gray-200 text-gray-700 border border-gray-200  py-2 px-4 leading-tight focus:outline-none focus:bg-white focus:border-gray-500"
                 id="grid-last-name"
                 type="text"
                 placeholder=""
@@ -52,7 +49,7 @@ const Contacts = () => {
                 Last Name :
               </label>
               <input
-                className="appearance-none block w-full bg-gray-200 text-gray-700 border border-gray-200 rounded py-2 px-4 leading-tight focus:outline-none focus:bg-white focus:border-gray-500"
+                className="appearance-none block w-full bg-gray-200 text-gray-700 border border-gray-200  py-2 px-4 leading-tight focus:outline-none focus:bg-white focus:border-gray-500"
                 id="grid-last-name"
                 type="text"
                 placeholder=""
@@ -63,9 +60,9 @@ const Contacts = () => {
                 Company Name :
               </label>
               <input
-                  className="appearance-none block w-full bg-gray-200 text-gray-700 border border-gray-200 rounded py-2 px-4 mb-3 leading-tight focus:outline-none focus:bg-white focus:border-gray-500"
-                  id="grid-password"
-                  type="password"
+                className="appearance-none block w-full bg-gray-200 text-gray-700 border border-gray-200  py-2 px-4 mb-3 leading-tight focus:outline-none focus:bg-white focus:border-gray-500"
+                id="grid-password"
+                type="password"
                 placeholder=""
               />
             </div>
@@ -74,7 +71,7 @@ const Contacts = () => {
                 Job Title :
               </label>
               <input
-                className="appearance-none block w-full bg-gray-200 text-gray-700 border border-gray-200 rounded py-2 px-4 mb-3 leading-tight focus:outline-none focus:bg-white focus:border-gray-500"
+                className="appearance-none block w-full bg-gray-200 text-gray-700 border border-gray-200  py-2 px-4 mb-3 leading-tight focus:outline-none focus:bg-white focus:border-gray-500"
                 id="grid-password"
                 type="password"
                 placeholder=""
@@ -89,7 +86,7 @@ const Contacts = () => {
               Email Address :
             </label>
             <input
-              className="appearance-none block w-full bg-gray-200 text-gray-700 border  border-gray-200 rounded py-2 px-4 mb-3 leading-tight focus:outline-none focus:bg-white focus:border-gray-500"
+              className="appearance-none block w-full bg-gray-200 text-gray-700 border  border-gray-200  py-2 px-4 mb-3 leading-tight focus:outline-none focus:bg-white focus:border-gray-500"
               id="grid-password"
               type="password"
               placeholder=""
@@ -100,7 +97,7 @@ const Contacts = () => {
               Phone Number :
             </label>
             <input
-              className="appearance-none block w-full bg-gray-200 text-gray-700 border border-gray-200 rounded py-2 px-4 mb-3 leading-tight focus:outline-none focus:bg-white focus:border-gray-500"
+              className="appearance-none block w-full bg-gray-200 text-gray-700 border border-gray-200  py-2 px-4 mb-3 leading-tight focus:outline-none focus:bg-white focus:border-gray-500"
               id="grid-password"
               type="password"
               placeholder=""
@@ -111,7 +108,7 @@ const Contacts = () => {
               Tell us a bit about your project:
             </label>
             <textarea
-              className="appearance-none block w-full bg-gray-200 text-gray-700 border border-gray-200 rounded py-2 pb-12 px-4 mb-3 leading-tight focus:outline-none focus:bg-white focus:border-gray-500"
+              className="appearance-none block w-full bg-gray-200 text-gray-700 border border-gray-200  py-2 pb-12 px-4 mb-3 leading-tight focus:outline-none focus:bg-white focus:border-gray-500"
               id="grid-password"
               type="password"
               placeholder=""
@@ -143,7 +140,7 @@ const Contacts = () => {
         </div>
       </div>
 
-    <Testimonials/>
+      {/* <Testimonials /> */}
     </>
   );
 };

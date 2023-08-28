@@ -8,6 +8,9 @@ import Hero from './Pages/Home/Hero/Hero'
 import Team from './Pages/Home/Team/Team'
 import Contacts from './Pages/Home/Contacts/Contacts'
 import Service from './Pages/Home/Service/Service'
+import Login from './Pages/Home/Login/Login'
+import Sign from './Pages/Home/Sign/Sign'
+
 
 function App() {
   
@@ -23,10 +26,10 @@ function App() {
         <Route path="/team" element={  <Team /> }/>
         <Route path="/contact" element={<Contacts />} />
         <Route path="/service" element={<Service />} />
-         {/* 
+         
        
         <Route path="/login" element={<Login />} />
-        <Route path="/sign" element={<Sign />} /> */}
+        <Route path="/sign" element={<Sign />} />
       </Routes>
       <Footer/>
       <ScrollToTop 

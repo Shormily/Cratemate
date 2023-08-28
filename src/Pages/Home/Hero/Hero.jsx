@@ -1,168 +1,133 @@
-import Card from "../Card/Card";
-import Testimonial from "../Testimonial/Testimonial";
+// Import Swiper React components
+import { Swiper, SwiperSlide } from "swiper/react";
 
-import Testimonials from "../Testimonials/Testimonials";
+// Import Swiper styles
+import "swiper/css";
+import "swiper/css/pagination";
+
+// import required modules
+import { Pagination,Autoplay } from "swiper/modules";
 import "./Hero.css";
 
 const Hero = () => {
   return (
     <>
-      <section className="banner ">
-        <div>
- <div  className="max-w-[1240px] m-auto pt-32  px-8 " >
-          <p className="text-white  text-6xl    ">
-            <span>Cratmate AI</span>
-            <br />
-            <span className="pt-4 text-5xl">Technology </span>
-          </p>
-          <p
-            // className="text-white mt-4  text-base  leading-loose banner-text"
-            className="block text-white text-[12px] banner-text mt-5 mb-2 leading-loose"
-          >
-            On-demand Premium Data Collection, Multilingual languages & <br />
-            Annotation Services for AI & ML, IT Services and IT Consulting,
-            Delhi
-          </p>
-        </div>
-        </div>
-       
-      </section>
-   
-   
-   
-   
-      
-   
-      <h1 className="mx-5  pt-[35px] pb-4 text-4xl text-center  text-style">About Us Our Company </h1>
      
-      <div className="grid lg:grid-cols-2 md:grid-cols-2 sm:grid-cols-1 gap-8 mb-12  max-w-[1240px] m-auto pt-8 px-8 ">
-        
-        
-        <div > 
-          <img
-            src="https://i.ibb.co/yFnJMwn/ezgif-com-webp-to-jpg-1.jpg"
-            className="w-96 mt-5"
-            alt=""
-          />
-        </div>
-        <div className="">
-        
-          <p className="block text-gray-700 text-[12px] font-semibold mb-2 p-5 cont-pra">
-            Cratmate AI Technology Private Limited operates as Cratmate AI,
-            offering a comprehensive "One-Stop Big Data Solution" to facilitate
-            digital transformation for enterprises and technology providers. Our
-            primary focus is to deliver seamless customer experiences, improve
-            business efficiency, and provide actionable insights. At Cratmate
-            AI, we possess a range of capabilities, including AI Training Data
-            Set Collection, Premium/Customized Data Collection, and Multilingual
-            Data Collection. We specialize in providing standardized and
-            structured data associated with various formats such as Text,
-            Images, Audio, Video, and Web pages. With extensive experience in
-            Data Processing Services, we offer a wide array of services,
-            including Transcription, Data Labeling/Annotations, Data Analysis,
-            Data Mining, Data Design, and Expert Consultation. Our services
-            cater to diverse industry sectors, such as automotive, BFSI,
-            consumer packaged goods, e-commerce, engineering R&D, hi-tech,
-            manufacturing, retail, and travel/transportation/hospitality. As the
-            global adoption of AI continues to expand, we are confident in our
-            ability to fulfill your requirement for top-quality data sets. Since
-            2015, Cratmate AI has been officially engaged in the Big Data
-            domain, leveraging our expertise from over 15 years of experience in
-            Japanese outsourcing. This has enabled us to serve industries like
-            Japanese Vehicle & Household Appliances with Big Data Services,
-            thanks to our professional manager methodology, high-quality control
-            system, and efficient delivery. If you have any inquiries,
-            suggestions, or specific needs, please do not hesitate to reach out
-            to us. We are dedicated to providing wholehearted service.<br/> Operating
-            hours: 08:00 AM ~ 5:00 PM IST (India Time)
-          </p>
-        </div>
-      </div>
-
+   <div className="mb-12" >
+   <Swiper
+          spaceBetween={30}
+          autoplay={{
+            delay: 2500,
+            disableOnInteraction: false,
+          }}
+          pagination={{
+            clickable: true,
+          }}
+          modules={[Pagination,Autoplay]}
+          className="mySwiper "
+        >
       
-      <div className="grid lg:grid-cols-2 md:grid-cols-1 sm:grid-cols-1 max-w-[1240px] m-auto bg-[#629dad]">
-        <div className="pt-48">
-          <h1 className="text-styles px-12 text-white  text-4xl ">
-            Our AI Training Specialists
-          </h1>
-          <p  className="block text-white text-[13px] mt-5 cont-pra font-semibold mb-2 px-12 leading-loose">
-            <span className="text-gray-950">Domain /Experts  </span> <span className="text-gray-700"> | </span>  Curated Crowd <span className="text-gray-700"> | </span> Global Crowd</p>
-          <p className="block text-white text-[13px] mt-5 cont-pra font-semibold mb-2 px-12 leading-loose">
-            Having access to domain experts can provide invaluable insights and
-            knowledge specific to the industry or niche, which can greatly
-            enhance the effectiveness of a large language model. We support
-            domains such as math, science, humanities, finance, law, coding,
-            counseling, healthcare, creative writing and more!{" "}
-          </p>
+          <SwiperSlide>
+            <div className="grid lg:grid-cols-4 md:grid-cols-3 gap-24   sm:grid-cols-1 max-w-[1240px] m-auto  ">
+              <div className="lg:col-span-3 md:col-span-2 mx-3 mt-24  cont-pra  ">
+                <p className=" text-gray-950 mt-8 pb-8  text-5xl text-semibold    ">
+              We are Cratmate AI
+                </p>
+                <p
+                  // className="text-white mt-4  text-base  leading-loose banner-text"
+                  className="block w-[75%]  text-gray-950 text-[15px] banner-text mt-5 mb-2 cont-pra"
+                >
+                  Welcome to Cratmate AI Technology Private Limited, operating
+                  as Cratmate AI. We're your go-to  destination for a complete 
+                 "One-Stop  Big Data Solution," helping businesses and tech
+                  providers   transform digitally. Our main goal is to enhance
+                  customer experiences, boost operational efficiency,<br/>and
+                  provide actionable insights.
+                  <br /> 
+                  <br/>
+                  At Cratmate AI, we possess a wide range of
+                  capabilities. This includes AI Training Data Set Collection,
+                  Premium/Customized  Data Collection, and Multilingual Data
+                  Collection. Our expertise lies in providing  structured data in
+                  various formats such as  Text, Images,Audio,  Video, and Web
+                  pages.
+                  <br />
+                  <br />
+                  With our extensive experience in Data Processing Services, we
+                  offer a comprehensive set of solutions. This includes
+                  Transcription, Data Analysis, Data
+                  Mining, Data Labeling/Annotations, Data Design, and  Expert Consultation .
+                  <br />
+                  <br />
+                  Our services cater to a variety of industries including
+                  automotive, BFSI, consumer packaged goods, hi-tech, e-commerce,
+                   engineering R&D,  manufacturing, retail, and
+                  travel/transportation/hospitality. As the global  demand for AI
+                  continues to grow, we're confident in delivering top-quality
+                  data sets to meet your needs. 
+                  <br /> 
+                  <br /> 
+                  Since 2015, Cratmate AI
+                  has been deeply involved in the Big Data field, drawing on our
+                  expertise from over 15 years of experience in Japanese
+                  outsourcing. This unique background has enabled us to serve
+                  industries such as Japanese Vehicle & Household Appliances
+                  with our Big Data Services. Thanks to <br/>our professional
+                  management approach, stringent quality control, and efficient
+                  delivery methods, we stand as a trusted partner in this
+                  domain.
+                </p>
+              </div>
+              <div className="pt-40 ">
+                <img className="w-96 mt-24  h-96 mr-12" src="https://i.ibb.co/R2XVz9j/Logo.png" alt="" />
+              </div>
+            </div>
+          </SwiperSlide>
+          <SwiperSlide>
+          <div className="grid lg:grid-cols-4 md:grid-cols-3 gap-24 mb-8  sm:grid-cols-1 max-w-[1240px] m-auto  ">
+              <div className="lg:col-span-3 md:col-span-2 mx-3   cont-pra  ">
+                <p className=" text-gray-950  text-5xl text-semibold pt-8  mb-12  ">
+            Our Company
+                </p>
+                <p
+                  // className="text-white mt-4  text-base  leading-loose banner-text"
+                  className="block w-[75%]   text-gray-950 text-[15px] banner-text mt-5 mb-2 cont-pra"
+                >
+                 The Cratmate AI – a realm where technology and service intertwine to craft the extraordinary. Nestled in India, our influence spans across the globe, encompassing the United Kingdom, China, Vietnam, and Japan. We proudly stand as a global player in the realm of Information Technology & Services.
+                  <br /> 
+                  <br/>
+                  Our expertise? It revolves around the world of Big Data Services. Our official journey began in 2015, as we stepped into the Big Data landscape armed with 15 years of invaluable Japanese outsourcing experience. This fusion of tried-and-true knowledge with cutting-edge innovation became the bedrock of our enterprise.
+                  <br />
+                  <br />
+                  While our main operational hubs thrive in India and China, our reach knows no bounds. The pivotal Industry Strategic Cooperation Team stationed in Taiwan and the UK empowers us to deftly manage monumental projects with skill and adaptability.
+                  <br />
+                  <br />
+                  Collaboration lies at the core of our DNA. From the bustling streets of Japan to the picturesque landscapes of Taiwan and Europe, our global spirit has forged partnerships with major corporations across continents.
+                  <br /> 
+                  <br /> 
+                  Yet, our unwavering commitment to security sets us apart. We meticulously adhere to international regulations, ensuring the utmost protection for your valuable information. Our vigilant watch is 24/7, spanning diverse territories. The moment anything seems amiss, our response is swift. By segmenting workflows, we enhance security further.
+                  <br/>
+                  <br/>
+                  However, at the heart of it all is your satisfaction. Our guiding principle is "customer first." Mediocrity has no place here. We're on an unending quest for excellence, always striving to exceed your expectations and bring smiles of satisfaction.
+                  <br/>
+                  <br/>
+                  So, join us on this exhilarating journey at Cratmate AI. Here, technology and service converge to dissolve borders and pave the way for innovative solutions. 
+                  <br/>
+                  <br/>
+                  It's a journey where joy, innovation, and top-notch service are woven into the fabric of our company's identity.
+                </p>
+              </div>
+              <div className="pt-40 ">
+                <img className="w-96 mt-12 h-96 mr-12" src="https://i.ibb.co/R2XVz9j/Logo.png" alt="" />
+              </div>
+            </div>
+          </SwiperSlide>
+        </Swiper>
+    </div>  
+   
+    
 
-          <p className="block text-gray-800 mb-8  cont-pra font-semibold mb-2 px-12 leading-loose">
-            LEARN MORE
-          </p>
-        </div>
-
-        <div className="video">
-          <video
-            src="https://s41256.pcdn.co/wp-content/uploads/2023/05/OurCrowd_VideoModule_V3_3.mp4"
-            autoPlay
-            loop
-            muted
-            className="video-container  h-68"
-          ></video>
-
-          <div className="mb-64 p-5 cont-pra text-white text-center texteras ">
-            <h1 className=" text-2xl ">1M+ contributors in 170+</h1>
-            <p>
-              provide solutions for real world scenarios, and efficiently
-              measure and monitor the performance of your model to
-            </p>
-          </div>
-        </div>
-      </div>
-      <p className="text-styles text-center text-gray-600 pt-5 pb-12 text-4xl mt-12">
-        What We Do
-      </p>
-      <div className="grid lg:grid-cols-2 md:grid-cols-2 sm:grid-cols1 max-w-[1200px] m-auto cont-pra">
-      <div  >
-   <div className="text center">
-          <h1 className="text-center pr-24 text-2xl text-gray-600">
-            AI INNOVATION
-          </h1>
-          <p className="block text-gray-700 text-[12px] font-semibold mb-2 p-5">
-            We’ve powered innovative AI applications for global brands like
-            Microsoft, Amazon, Google, Pinterest, Salesforce, Oracle, Adobe,
-            BestBuy and more, for 26+ years. With extensive experience in model
-            tuning, validation, and benchmarking, we ensure enterprise AI models
-            enhance customer experience.
-          </p>
-          <div className=" pr-24 flex flex-col items-center justify-center mb-5">
-            <button className="btn-col  text-white mx-8 py-3 px-4 rounded-full">
-              Learn More
-            </button>
-          </div>
-        </div>
-     </div>
-     <div  >
-     <div className="text center">
-          <h1 className="text-center pr-24 text-2xl text-gray-600">
-            OUR EXPERTISE
-          </h1>
-          <p className="block text-gray-700 text-[12px] font-semibold mb-2 p-5">
-            Our truly full-stack suite of cutting-edge data tools and services
-            provide fast and easy solutions for enterprises worldwide. We adapt
-            base models, provide solutions for real world scenarios, and
-            efficiently measure and monitor the performance of your model to
-            mitigate risks of hallucination, bias, and toxicity.
-          </p>
-          <div className=" pr-24 flex flex-col items-center justify-center mb-5">
-            <button className="btn-col  text-white mx-8 py-3 px-4 rounded-full">
-              Learn More
-            </button>
-          </div>
-        </div>
-     </div>
-       
-      </div>
-      <Testimonial />
+      {/* <Testimonial /> */}
     </>
   );
 };
