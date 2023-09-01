@@ -82,10 +82,10 @@ export default function AboutTabs() {
   return (
     <div id="tabtable" >
  <Box className="max-w-[1200px]  m-auto " sx={{ width: "100%" }}>
-      <h1 className=" pt-8 text-gray-600 text-4xl   text-styles  mx-3 ">
+      <h1 className=" text-gray-600 text-4xl  service-heading    mx-3 ">
         Secure Data
       </h1>
-      <p className="cont-pra mt-4 mb-3 text-gray-500 mx-3">
+      <p className="font-normal mt-4 mb-3 text-style text-gray-600 mx-3">
         Enhance data security with enterprise-level protection for sensitive
         client information.
       </p>
@@ -112,27 +112,27 @@ export default function AboutTabs() {
          
         >
           <Tab
-           sx={{ color:"#003B49",fontSize:12,fontFamily:"Merriweather', serif",fontWeight:700 }}
+           sx={{ color:"#003B49",fontSize:12,fontFamily:"'Roboto', sans-serif",fontWeight:900 }}
             label="Secoure Data Access"
             {...a11yProps(0)}
           />
           <Tab
-             sx={{ color:"#003B49",fontSize:12,fontFamily:"Merriweather', serif",fontWeight:700 }}
+             sx={{ color:"#003B49",fontSize:12,fontFamily:"'Roboto', sans-serif",fontWeight:900 }}
             label="Secure Crowd"
             {...a11yProps(1)}
           />
           <Tab
-             sx={{ color:"#003B49",fontSize:12,fontFamily:"Merriweather', serif",fontWeight:700 }}
+             sx={{ color:"#003B49",fontSize:12,fontFamily:"'Roboto', sans-serif",fontWeight:900 }}
             label="Secure Facilities"
             {...a11yProps(2)}
           />
           <Tab
-            sx={{ color:"#003B49",fontSize:12,fontFamily:"Merriweather', serif",fontWeight:700 }}
+            sx={{ color:"#003B49",fontSize:12,fontFamily:"'Roboto', sans-serif",fontWeight:900 }}
             label="Secure Workspace "
             {...a11yProps(3)}
           />
           <Tab
-             sx={{ color:"#003B49",fontSize:12,fontFamily:"Merriweather', serif",fontWeight:700 }}
+             sx={{ color:"#003B49",fontSize:12,fontFamily:"'Roboto', sans-serif",fontWeight:900 }}
             label="Certifications"
             {...a11yProps(4)}
           />
@@ -146,10 +146,10 @@ export default function AboutTabs() {
                 <img className="rounded-md  " src={tab.img} alt="" />
               </div>
               <div className="w-full rounded-md  lg:pr-5 px-5 ">
-                <h3 className="text-gray-950 text-3xl cont-pra  ">
+                <h3 className="text-gray-950 text-3xl cont-pra  pt-12">
                   {tab.name}
                 </h3>
-                <div className="block  font-semibold mt-5 mb-2  text-gray-900  pr-5 cont-pra ">
+                <div className="block  font-normal text-[15px] mt-5 mb-2  text-gray-900  pr-5 cont-pra ">
                   {tab.pra}
                 </div>
               </div>

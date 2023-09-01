@@ -10,7 +10,7 @@ const DoNavbar = () => {
   const closeMenu = () => setClick(false);
   return (
     <>
-      <div className="header sticky top-0 z-30 w-full">
+      <div className="header sticky top-0  z-30   w-full">
         <nav className="navbar">
         
           <div className="hamburger" onClick={handleClick}>
@@ -21,7 +21,7 @@ const DoNavbar = () => {
             )}
           </div>
           <ul className={click ? "nav-menu active" : "nav-menu"}>
-            <li className="nav-item">
+            <li className="nav-item ">
               <Link
                 to="Data"
                 spy={true}

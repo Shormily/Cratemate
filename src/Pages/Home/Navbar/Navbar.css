@@ -1,20 +1,23 @@
-@import url("https://fonts.googleapis.com/css2?family=Arimo:ital,wght@1,700&family=Didact+Gothic&family=Galada&family=Lato:ital,wght@0,400;0,700;1,400&family=M+PLUS+1&family=M+PLUS+Rounded+1c&family=Niramit:ital,wght@1,700&family=Noto+Sans&family=Noto+Sans+Bengali:wght@500;900&family=Nunito+Sans:wght@300&family=Open+Sans:wght@300&family=Poppins:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,300;0,500;0,600;0,700;1,600;1,800;1,900&family=Roboto+Slab:wght@500&family=Work+Sans:wght@500&display=swap");
-@import url('https://fonts.googleapis.com/css2?family=Arimo:ital,wght@1,700&family=Didact+Gothic&family=Galada&family=Inter:wght@700;800;900&family=Lato:ital,wght@0,400;0,700;1,400&family=M+PLUS+1&family=M+PLUS+Rounded+1c&family=Niramit:ital,wght@1,700&family=Noto+Sans&family=Noto+Sans+Bengali:wght@500;900&family=Nunito+Sans:wght@300&family=Open+Sans:wght@300&family=Poppins:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,300;0,500;0,600;0,700;1,600;1,800;1,900&family=Roboto+Slab:wght@500&family=Work+Sans:ital,wght@0,500;1,500&display=swap');
-
-
-
+@import url('https://fonts.googleapis.com/css2?family=Arimo:ital,wght@1,700&family=Didact+Gothic&family=Galada&family=Inter:wght@500;600;700;800;900&family=Lato:ital,wght@0,400;0,700;1,400&family=M+PLUS+1:wght@400;600;800;900&family=M+PLUS+Rounded+1c&family=Merriweather:ital,wght@0,700;1,700&family=Montserrat:ital,wght@0,600;1,600&family=Niramit:ital,wght@1,700&family=Noto+Sans+Bengali:wght@500;900&family=Noto+Sans:wght@400;600&family=Nunito+Sans:wght@300&family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;1,400;1,600&family=Poppins:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,300;0,500;0,600;0,700;1,600;1,800;1,900&family=Roboto+Slab:wght@500&family=Roboto:wght@500&family=Work+Sans:ital,wght@0,500;1,500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Arimo:ital,wght@1,700&family=Didact+Gothic&family=Galada&family=Inter:wght@500;600;700;800;900&family=Lato:ital,wght@0,400;0,700;1,400&family=M+PLUS+1:wght@400;600;800;900&family=M+PLUS+Rounded+1c&family=Merriweather:ital,wght@0,700;1,700&family=Montserrat:ital,wght@0,600;1,600&family=Niramit:ital,wght@1,700&family=Noto+Sans+Bengali:wght@500;900&family=Noto+Sans:wght@400;600&family=Nunito+Sans:wght@300&family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;1,400;1,600&family=Poppins:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,300;0,500;0,600;0,700;1,600;1,800;1,900&family=Roboto+Slab:wght@500&family=Roboto:wght@500;700&family=Work+Sans:ital,wght@0,500;1,500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Arimo:ital,wght@1,700&family=Didact+Gothic&family=Galada&family=Inter:wght@500;600;700;800;900&family=Lato:ital,wght@0,400;0,700;1,400&family=M+PLUS+1:wght@400;600;800;900&family=M+PLUS+Rounded+1c&family=Merriweather:ital,wght@0,700;1,700&family=Montserrat:ital,wght@0,600;1,600&family=Niramit:ital,wght@1,700&family=Noto+Sans+Bengali:wght@500;900&family=Noto+Sans:wght@400;600&family=Nunito+Sans:wght@300&family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;1,400;1,600&family=Poppins:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,300;0,500;0,600;0,700;1,600;1,800;1,900&family=Roboto+Slab:wght@500&family=Roboto:wght@300;400;500;700;900&family=Work+Sans:ital,wght@0,500;1,500&display=swap');
 .fonts {
   font-family: "Didact Gothic", sans-serif;
   /* color: #629dad; */
-  font-weight: 700;
+  font-weight: 500;
   font-size: 14px;
 }
 .logo-weight{
-  font-family: 'Inter', sans-serif;
-  font-weight: 700;
-  color: #629dad;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 900;
+  font:bolder;
+  /* color: #629dad; */
 }
 
+.btn-width{
+  font-family: 'Roboto', sans-serif;
+  font-weight: 900;
+}
 .nav-link {
   position: relative;
   transition: 0.4s;

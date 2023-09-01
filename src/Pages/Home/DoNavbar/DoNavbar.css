@@ -23,6 +23,8 @@
 
 .header .nav-menu a {
     color: #ffffff;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
 }
 
 .header .navbar img {
@@ -54,6 +56,8 @@
 .hamburger {
     display: none;
 }
+
+
 
 
 @media screen and (max-width:940px) {

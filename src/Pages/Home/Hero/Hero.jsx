@@ -1,6 +1,6 @@
 // Import Swiper React components
 import { Swiper, SwiperSlide } from "swiper/react";
-
+import 'animate.css';
 // Import Swiper styles
 import "swiper/css";
 import "swiper/css/pagination";
@@ -30,12 +30,11 @@ const Hero = () => {
           <SwiperSlide>
             <div className="grid lg:grid-cols-4 md:grid-cols-3 gap-24   sm:grid-cols-1 max-w-[1240px] m-auto  ">
               <div className="lg:col-span-3 md:col-span-2 mx-3 mt-24  cont-pra  ">
-                <p className=" text-gray-950 mt-8 pb-8  text-5xl text-semibold    ">
+                <p className="  mt-8 pb-8  text-5xl    animate__animated animate__fadeInUp ">
               We are Cratmate AI
                 </p>
                 <p
-                  // className="text-white mt-4  text-base  leading-loose banner-text"
-                  className="block w-[75%]  text-gray-950 text-[15px] banner-text mt-5 mb-2 cont-pra"
+                  className="block w-[75%] text-slate-950 animate__animated animate__fadeInUp font-normal  text-[15px] mt-5 mb-2 text-style"
                 >
                   Welcome to Cratmate AI Technology Private Limited, operating
                   as Cratmate AI. We're your go-to  destination for a complete 
@@ -78,20 +77,20 @@ const Hero = () => {
                   domain.
                 </p>
               </div>
-              <div className="pt-40 ">
+              <div className="pt-40 animate__animated animate__fadeInRight">
                 <img className="w-96 mt-24  h-96 mr-12" src="https://i.ibb.co/R2XVz9j/Logo.png" alt="" />
               </div>
             </div>
           </SwiperSlide>
           <SwiperSlide>
           <div className="grid lg:grid-cols-4 md:grid-cols-3 gap-24 mb-8  sm:grid-cols-1 max-w-[1240px] m-auto  ">
-              <div className="lg:col-span-3 md:col-span-2 mx-3   cont-pra  ">
-                <p className=" text-gray-950  text-5xl text-semibold pt-8  mb-12  ">
+              <div className="lg:col-span-3 md:col-span-2 mx-3 mb-12  mt-8 ">
+                <p className=" text-gray-950 text-5xl pt-24  mb-12  animate__animated animate__fadeInUp ">
             Our Company
                 </p>
                 <p
                   // className="text-white mt-4  text-base  leading-loose banner-text"
-                  className="block w-[75%]   text-gray-950 text-[15px] banner-text mt-5 mb-2 cont-pra"
+                  className="block w-[75%] text-slate-950 animate__animated animate__fadeInUp  font-normal text-style text-[15px] mt-5 mb-2 "
                 >
                  The Cratmate AI – a realm where technology and service intertwine to craft the extraordinary. Nestled in India, our influence spans across the globe, encompassing the United Kingdom, China, Vietnam, and Japan. We proudly stand as a global player in the realm of Information Technology & Services.
                   <br /> 
@@ -118,7 +117,7 @@ const Hero = () => {
                 </p>
               </div>
               <div className="pt-40 ">
-                <img className="w-96 mt-12 h-96 mr-12" src="https://i.ibb.co/R2XVz9j/Logo.png" alt="" />
+                <img className="w-96 mt-24 h-96 mr-12 animate__fadeInRight mt-" src="https://i.ibb.co/R2XVz9j/Logo.png" alt="" />
               </div>
             </div>
           </SwiperSlide>

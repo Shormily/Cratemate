@@ -106,8 +106,8 @@ export default function AboutTabs() {
             sx={{
               color: "#003B49",
               fontSize: 12,
-              fontFamily: "'Didact Gothic', sans-serif;",
-              fontWeight: 700,
+              fontFamily: "'Roboto', sans-serif;",
+              fontWeight: 900,
             }}
             label=" Data Collection"
             {...a11yProps(0)}
@@ -116,8 +116,8 @@ export default function AboutTabs() {
             sx={{
               color: "#003B49",
               fontSize: 12,
-              fontFamily: "'Didact Gothic', sans-serif;",
-              fontWeight: 700,
+              fontFamily: "'Roboto', sans-serif;",
+              fontWeight: 900,
             }}
             label="Image Collection"
             {...a11yProps(1)}
@@ -126,8 +126,8 @@ export default function AboutTabs() {
             sx={{
               color: "#003B49",
               fontSize: 12,
-              fontFamily: "'Didact Gothic', sans-serif;",
-              fontWeight: 700,
+              fontFamily: "'Roboto', sans-serif;",
+              fontWeight: 900,
             }}
             label="Off-the-Shelf Datasets"
             {...a11yProps(2)}
@@ -136,8 +136,8 @@ export default function AboutTabs() {
             sx={{
               color: "#003B49",
               fontSize: 12,
-              fontFamily: "'Didact Gothic', sans-serif;",
-              fontWeight: 700,
+              fontFamily: "'Roboto', sans-serif;",
+              fontWeight: 900,
             }}
             label="
             Point of Interest"
@@ -147,8 +147,8 @@ export default function AboutTabs() {
             sx={{
               color: "#003B49",
               fontSize: 12,
-              fontFamily: "'Didact Gothic', sans-serif;",
-              fontWeight: 700,
+              fontFamily: "'Roboto', sans-serif;",
+              fontWeight: 900,
             }}
             label="Synthetic Data"
             {...a11yProps(4)}
@@ -160,7 +160,7 @@ export default function AboutTabs() {
           <TabPanel value={value} index={tab.id}>
             <div className="">
               <div className="w-full rounded-md  lg:pr-5 px-5 ">
-                <div className="block text-[14px]  font-semibold mt-5 mb-2 cont-pra text-gray-900  pr-5 ">
+                <div className="block text-[14px]  font-normal mt-5 mb-2 cont-pra text-slate-950 [15px] pr-5 ">
                   {tab.pra}
                 </div>
               </div>

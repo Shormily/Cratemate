@@ -7,12 +7,14 @@ import Tab from "../Tab/Tab";
 import Contact from './../Contact/Contact';
 import DoNavbar from "../DoNavbar/DoNavbar";
 
+import NavService from "../NavService/NavService";
+
 
 
 const About = () => {
   return (
     <>
-      <Navbar />
+      <NavService />
       <Servone/>
       <DoNavbar/>
       <BigData/> 

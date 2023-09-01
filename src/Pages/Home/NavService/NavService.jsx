@@ -1,20 +1,18 @@
 import React, { useState } from "react";
 import { NavLink } from "react-router-dom";
 
-import "./Navbar.css";
-
-const Navbar = () => {
-  const [nav, setNav] = useState(false);
+const NavService = () => {
+    const [nav, setNav] = useState(false);
   const handleNav = () => {
     setNav(!nav);
   };
   let [open,setOpen]=useState(false);
-  return (
-    <>
-      <div className="text-gray-950 shadow-md sticky top-0 z-30 w-full bg-white">
+    return (
+        <>
+            <div className="text-gray-950 shadow-md  w-full bg-white">
         <div className="max-w-screen-xl pt-2 pb-2   flex items-center justify-between mx-auto  px-8 ">
         <NavLink as={NavLink} to="/"> <div className="items-center">
-            <p className=" text-4xl logo-weight">
+            <p className="text-4xl logo-weight">
               Cratmate AI
             </p>
           </div></NavLink>
@@ -22,14 +20,14 @@ const Navbar = () => {
           <div className="flex md:order-2">
           <a   href="
                https://shujiajia.com/login
-                  " target="_blank"> <button className="btn-col text-semibold btn-width text-white mx-8 py-1 px-4 rounded-full">
-           Log In
+                  " target="_blank"> <button className="btn-col  text-white mx-8 py-1 px-4 rounded-full">
+              Log In
             </button></a>
            
           </div>
           <React.Fragment>
             <div className="items-center justify-between  hidden w-full md:flex md:w-auto md:order-1">
-              <ul className="hidden sm:flex px-4 p-4 text-gray-950  ">
+              <ul className="hidden sm:flex px-4 p-4 text-gray-950  font-semibold ">
                 <li className="block banner-text mx-4 nav-link py-2 text-gray-950 pl-3 pr-4 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 md:dark:hover:text-cyan-700 text-gray-950 lg:font-semibold dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700">
                   <NavLink as={NavLink} to="/">
                   We are Cratmate AI
@@ -104,9 +102,9 @@ const Navbar = () => {
             </ul>
           </div>
         </div>
-      </div>
-    </>
-  );
+      </div>  
+        </>
+    );
 };
 
-export default Navbar;
+export default NavService;

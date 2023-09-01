@@ -11,7 +11,7 @@ const Contact = () => {
               <br />
               Consult
             </h1>
-            <p className="mt-6 block text-gray-700 text-[13px] font-semibold mb-2  cont-pra ">
+            <p className="mt-6 block text-slate-900 text-[14px] font-normal mb-2  cont-pra ">
               If you have any questions or would like more information about our
               services, please don’t hesitate to reach out. Our team is here to
               help and answer any questions you may have.
@@ -31,7 +31,7 @@ const Contact = () => {
         <div className=" lg:col-span-2 md:col-span-2 mx-3  pt-12 cont-pra ">
           <div className="grid lg:grid-cols-2 md:grid-cols-1 sm:grid-cols-1 gap-8 ">
             <div className=" ">
-              <label className="block text-gray-700 text-[12px] font-semibold mb-2">
+              <label className="block text-gray-900 text-[12px] font-normal mb-2">
                 First Name :
               </label>
               <input
@@ -42,7 +42,7 @@ const Contact = () => {
               />
             </div>
             <div className="w-full ">
-              <label className="block text-gray-700 text-[12px] font-semibold mb-2">
+              <label className="block text-gray-700 text-[12px] font-normal mb-2">
                 Last Name :
               </label>
               <input
@@ -53,7 +53,7 @@ const Contact = () => {
               />
             </div>
             <div className="mt-[-20px]">
-              <label className="block text-gray-700 text-[12px] font-semibold mb-2">
+              <label className="block text-gray-700 text-[12px] font-normal mb-2">
                 Company Name :
               </label>
               <input
@@ -64,7 +64,7 @@ const Contact = () => {
               />
             </div>
             <div className="w-full mt-[-20px]">
-              <label className="block text-gray-700 text-[12px] font-semibold mb-2">
+              <label className="block text-gray-700 text-[12px] font-normal mb-2">
                 Job Title :
               </label>
               <input
@@ -77,7 +77,7 @@ const Contact = () => {
           </div>
           <div className="w-full mt-2  ">
             <label
-              className="block text-gray-700 text-[12px] font-semibold mb-2 "
+              className="block text-gray-700 text-[12px] font-normal mb-2 "
               placeholder="grid-password"
             >
               Email Address :
@@ -90,7 +90,7 @@ const Contact = () => {
             />
           </div>
           <div className="w-full mt-2 ">
-            <label className="block text-gray-700 text-[12px] font-semibold mb-2 ">
+            <label className="block text-gray-700 text-[12px] font-normal mb-2 ">
               Phone Number :
             </label>
             <input
@@ -101,7 +101,7 @@ const Contact = () => {
             />
           </div>
           <div className="w-full mt-2 ">
-            <label className="block text-gray-700 text-[12px] font-semibold mb-2">
+            <label className="block text-gray-700 text-[12px] font-normal mb-2">
               Tell us a bit about your project:
             </label>
             <textarea
@@ -131,7 +131,7 @@ const Contact = () => {
                   />
                 </svg>
               </button>
-              <h1 className="mt-2 text-[#DC3318] font-black">Submit</h1>
+              <h1 className="mt-2 text-[#DC3318] font-semibold">Submit</h1>
             </div>
           </div>
         </div>

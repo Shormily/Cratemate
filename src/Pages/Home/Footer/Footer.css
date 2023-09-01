@@ -23,24 +23,29 @@
 }
 
 .footer-link{
-    font-family: 'Didact Gothic', sans-serif;
-    font-size: 13px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
     font-weight: 500; 
 }
 
 .btn-col{
     background-color: #DC3318;
-    font-family: 'Didact Gothic', sans-serif;
+    font-family: 'Roboto', sans-serif;
     font-size: 13px;
-    font-weight: 200;
+    font-weight: 500;
 }
 .logoweight{
-    font-family: 'Didact Gothic', sans-serif;
+    font-family: 'Roboto', sans-serif;
     font-weight: 600;  
 }
 .btn-col:hover{
     background-color: #629dad;
-    font-family: 'Didact Gothic', sans-serif;
+    font-family: 'Roboto', sans-serif;
     font-size: 13px;
     font-weight: 200;
+}
+
+.foter-text{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
 }

@@ -35,17 +35,17 @@ const Relevence = () => {
           <>
            
            
-              <div className="content   ">  
-              <p className="flex gap-4 mb-4 pt-12  ">
-             <img className=" w-12 imgs h-12" src={service.img} alt="" /><span className="pt-2 text-[18px]">{service.name}</span> 
-              </p>
-              <p className="content-text ">
+          <div className="content   ">  
+          <p className="flex gap-4 mb-4 pt-12  ">
+         <img className=" w-12 imgs h-12" src={service.img} alt="" /><span className="pt-2 text-[18px]">{service.name}</span> 
+          </p>
+          <p className="text-style text-white font-normal text-[14px] ">
 
-                  {service.description}
-                </p>
-              </div>
-           
-          </>
+              {service.description}
+            </p>
+          </div>
+       
+      </>
         ))}
          </div>
       </div>  

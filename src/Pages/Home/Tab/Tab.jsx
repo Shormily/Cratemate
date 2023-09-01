@@ -82,10 +82,10 @@ export default function AboutTabs() {
   return (
     <div id="tab">
 <Box className="max-w-[1200px]  m-auto  mb-24" sx={{ width: "100%" }}>
-      <h1 className=" pt-8 text-gray-600 text-4xl   text-styles  mx-3 ">
+      <h1 className=" pt-12 mt-4 text-gray-600 text-4xl  service-heading    mx-3 ">
       Quality AI training data for the AI lifecycle
       </h1>
-      <p className="cont-pra mt-4 mb-3 text-gray-500 mx-3">
+      <p className="font-normal mt-4 mb-3 text-style text-gray-600 mx-3">
       A complete solution for AI training data sourcing, preparation, and model evaluation.
       </p>
       <Box sx={{ borderBottom: 1, borderColor: "divider",color: "#003B49", }}>
@@ -110,25 +110,25 @@ export default function AboutTabs() {
          
         >
           <Tab
-           sx={{ color:"#003B49",fontSize:12,fontFamily:"'Didact Gothic', sans-serif",fontWeight:900 }}
+           sx={{ color:"#003B49",fontSize:12,fontFamily:"'Roboto', sans-serif",fontWeight:900 }}
             label="Data Sourcing"
             {...a11yProps(0)}
            
           />
           <Tab
-            sx={{ color:"#003B49",fontSize:12,fontFamily:"Merriweather', serif",fontWeight:700 }}
+            sx={{ color:"#003B49",fontSize:12,fontFamily:"'Roboto', sans-serif",fontWeight:900 }}
             label="
             Data Preparation"
             {...a11yProps(1)}
           />
           <Tab
-             sx={{ color:"#003B49",fontSize:12,fontFamily:"Merriweather', serif",fontWeight:700 }}
+             sx={{ color:"#003B49",fontSize:12,fontFamily:"'Roboto', sans-serif",fontWeight:900 }}
             label="
             Model Development Partners"
             {...a11yProps(2)}
           />
           <Tab
-            sx={{ color:"#003B49",fontSize:12,fontFamily:"Merriweather', serif",fontWeight:700 }}
+            sx={{ color:"#003B49",fontSize:12,fontFamily:"'Roboto', sans-serif",fontWeight:900 }}
             label="
             Human-in-the-Loop Model Evaluation "
             {...a11yProps(3)}

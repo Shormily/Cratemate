@@ -101,8 +101,8 @@ export default function AboutTabs() {
             sx={{
               color: "#003B49",
               fontSize: 12,
-              fontFamily: "'Didact Gothic', sans-serif;",
-              fontWeight: 700,
+              fontFamily: "'Roboto', sans-serif;",
+              fontWeight: 900,
             }}
             label=" Global and Local"
             {...a11yProps(0)}
@@ -111,8 +111,8 @@ export default function AboutTabs() {
             sx={{
               color: "#003B49",
               fontSize: 12,
-              fontFamily: "'Didact Gothic', sans-serif;",
-              fontWeight: 700,
+              fontFamily: "'Roboto', sans-serif;",
+              fontWeight: 900,
             }}
             label="
             Edge Case Testing"
@@ -122,8 +122,8 @@ export default function AboutTabs() {
             sx={{
               color: "#003B49",
               fontSize: 12,
-              fontFamily: "'Didact Gothic', sans-serif;",
-              fontWeight: 700,
+              fontFamily: "'Roboto', sans-serif;",
+              fontWeight: 900,
             }}
             label="
             Real-World Simulation"
@@ -133,8 +133,8 @@ export default function AboutTabs() {
             sx={{
               color: "#003B49",
               fontSize: 12,
-              fontFamily: "'Didact Gothic', sans-serif;",
-              fontWeight: 700,
+              fontFamily: "'Roboto', sans-serif;",
+              fontWeight: 900,
             }}
             label="
            
@@ -149,7 +149,7 @@ Benchmarking"
           <TabPanel value={value} index={tab.id}>
             <div className="">
               <div className="w-full rounded-md  lg:pr-5 px-5 ">
-                <div className="block  font-semibold mt-5 mb-2  text-gray-900  pr-5 cont-pra ">
+                <div className="block  font-normal mt-5 mb-2  text-slate-950  text-[15px] pr-5 cont-pra ">
                   {tab.pra}
                 </div>
               </div>

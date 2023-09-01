@@ -17,7 +17,13 @@
   
 }
 
-
+.login{
+  background: linear-gradient(rgba(69, 77, 82, 0.5), rgba(64, 84, 87, 0.4)),
+  url("https://i.ibb.co/5598mFT/9738787-165911678176-2.jpg") no-repeat center center;
+  width: 100%;
+  height: 600px;
+  background-size: 100% 100%;
+}
 
 .bootom{
   border-bottom:1px solid #EEEEEE;

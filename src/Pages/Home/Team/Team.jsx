@@ -1,53 +1,69 @@
+
+import { toast } from "react-hot-toast";
 import Navbar from "../Navbar/Navbar";
 import TeamDescription from "../TeamDescription/TeamDescription";
-import { useRef} from "react";
-import emailjs from "@emailjs/browser";
 import "./Team.css";
 
+import { useState } from 'react';
+
 const Team = () => {
-  // const [pdf, setpdf] = useState();
-  const form = useRef();
+  const [recipientEmail, setRecipientEmail] = useState('');
+  const [subject, setSubject] = useState('');
+  const [text, setText] = useState('');
+  const [texts, setTexts] = useState('');
+  const [birth, setBirth] = useState('');
+  const [message, setMessage] = useState('');
+  const [gender, setGender] = useState('');
+  const [phone, setPhone] = useState('');
+  const [address, setAddress] = useState('');
+  const [countery, setCountery] = useState('');
+  const [experience, setExperience] = useState('');
+  const [file, setFile] = useState(null);
 
-  console.log(form)
-  const sendEmail = (e) => {
-    e.preventDefault();
-
-    emailjs.sendForm(
-        "service_t6p03yk",
-        "template_v7q04bt",
-        form.current,
-        "-FD0NoCV7R5IzuYUR"
-      )
-      .then(
-        (result) => {
-          alert("successfully subbmitted");
-          console.log(result);
-        },
-        (error) => {
-          console.log(error);
-        }
-      );
+  const handleFileChange = (e) => {
+    const selectedFile = e.target.files[0];
+    setFile(selectedFile);
   };
 
-  function handleFileSelect(event) {
-    const selectedFile = event.target.files[0]; // Get the selected file
+  const handleSubmit = async (e) => {
+    e.preventDefault();
+    
     const formData = new FormData();
-  
-    formData.append("pdfFile", selectedFile); // Add the selected file to FormData
-  
-    // Now, you can use formData for further processing or to get the PDF URL
-    const pdfFileURL = URL.createObjectURL(selectedFile);
-    console.log("PDF File URL:", pdfFileURL);
-  
-    // Do something with the URL, like displaying it or sending it to the server.
-  }
-  
+    formData.append('recipientEmail', recipientEmail);
+    formData.append('text', text);
+    formData.append('texts', texts);
+    formData.append('experience', experience);
+    formData.append('phone', phone);
+    formData.append('gender', gender);
+    formData.append('birth', birth);
+    formData.append('message', message);
+    formData.append('address', address);
+    formData.append('countery', countery);
+    formData.append('file', file);
+
+    try {
+      const response = await fetch('http://localhost:5000/api/send-email', {
+        method: 'POST',
+        body: formData,
+      });
+
+      if (response.ok) {
+        console.log   (toast.success('Successfully toasted!'));
+       
+      } else {
+        console.error('Email sending failed');
+      }
+    } catch (error) {
+      console.error('Error sending email:', error);
+    }
+  };
   return (
     <>
       <Navbar />
+      {/* <GoogleAuth/> */}
       <TeamDescription />
-  
-      <form ref={form} onSubmit={sendEmail} >
+     
+      <form  onSubmit={handleSubmit}>
         <div className="m-auto max-w-[1240px] flex item-center  justify-center">
         <div className=" mx-5 p-5   m-auto cont-pra">
           <div className="form-group row">
@@ -57,23 +73,28 @@ const Team = () => {
                   First Name :
                 </label>
                 <input
-                  name="user_name"
+                 
                   className="shadow appearance-none border font-normal  w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
-                  id="grid-last-name"
                   type="text"
-                  placeholder="Username"
+                 id="text"
+                 placeholder="FirstName"
+                 value={text}
+                onChange={(e) => setText(e.target.value)}
+               required
                 />
               </div>
               <div className="w-full ">
                 <label className="block text-gray-700 text-sm font-semibold mb-2">
-                  Last Name :
+                 Last Name:
                 </label>
                 <input
                   className="shadow appearance-none border font-normal  w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
-                  id="grid-last-name"
                   type="text"
-                  placeholder="Username"
-                  name="user_name"
+                  id="texts"
+                  placeholder="LastName"
+                  value={texts}
+                  onChange={(e) => setTexts(e.target.value)}
+                  required
                 />
               </div>
               <div className="mt-[-20px] mb-3">
@@ -82,10 +103,14 @@ const Team = () => {
                 </label>
                 <input
                   className="shadow appearance-none border font-normal  w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
-                  id="username"
+                  id="birth"
                   type="text"
                   placeholder="MM/DD/YYYY"
                   name="user_date"
+                  value={birth}
+                  onChange={(e) => setBirth(e.target.value)}
+                  required
+                
                 />
               </div>
               <div className="w-full mt-[-20px]">
@@ -99,8 +124,9 @@ const Team = () => {
                     <input
                       className="form-check-input pt-5 "
                       type="radio"
-                      // name="flexRadioDefault"
-                      name="user_date"
+                      name="flexRadioDefault"
+                      value={gender}
+                      onChange={(e) => setGender(e.target.value)}
                       id="flexRadioDefault2"
                       checked
                     />
@@ -112,8 +138,9 @@ const Team = () => {
                     <input
                       className="form-check-input pt-5 "
                       type="radio"
-                      // name="flexRadioDefault"
-                      name="user_date"
+                      name="flexRadioDefault"
+                      value={gender}
+                      onChange={(e) => setGender(e.target.value)}
                       id="flexRadioDefault2"
                       checked
                     />
@@ -125,20 +152,37 @@ const Team = () => {
               </div>
             </div>
 
-            <div className="mb-4">
-              {" "}
-              <label className="mb-2 mt-3">
-                <h5 className="block text-gray-700 text-sm font-semibold mb-2">
-                  Experience{" "}
-                </h5>
-              </label>
-              <input
-                className="shadow appearance-none border font-normal  lg:w-[48%] md:w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
-                id="username"
-                type="text"
-                placeholder="Experience"
-                name="user_date"
-              />
+            <div className="grid lg:grid-cols-2 md:grid-cols-1 sm:grid-cols-1 gap-8 ">
+              <div className=" ">
+                <label className="block text-gray-700 text-sm font-semibold mb-2">
+                 Experience :
+                </label>
+                <input
+                 
+                  className="shadow appearance-none border font-normal  w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
+                  type="text"
+                 id="experience"
+                 placeholder="Experience"
+                 value={experience}
+                onChange={(e) => setExperience(e.target.value)}
+               required
+                />
+              </div>
+              <div className="w-full mb-3">
+                <label className="block text-gray-700 text-sm font-semibold mb-2">
+                  Subject:
+                </label>
+                <input
+                  className="shadow appearance-none border font-normal  w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
+                  type="text"
+                  id="subject"
+                  placeholder="Subject"
+                  value={subject}
+                  onChange={(e) => setSubject(e.target.value)}
+                  required
+                />
+              </div>
+             
             </div>
           </div>
           <div className="form-group row">
@@ -151,9 +195,11 @@ const Team = () => {
                 </label>
                 <input
                   className="shadow appearance-none border font-normal  w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
-                  id="username"
-                  type="text"
-                  name="user_date"
+                  id="phone"
+                  type="number"
+                  value={phone}
+                  onChange={(e) => setPhone(e.target.value)}
+                   required
                   placeholder="(000) 000 - 0000"
                 />
               </div>
@@ -165,10 +211,11 @@ const Team = () => {
                 </label>
                 <input
                   className="shadow appearance-none border font-normal  w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
-                  id="username"
-                  type="text"
-                  placeholder="myname@example.com"
-                  name="user_email"
+                  type="email"
+                  id="recipientEmail"
+                  value={recipientEmail}
+                  onChange={(e) => setRecipientEmail(e.target.value)}
+                  required
                 />
               </div>
             </div>
@@ -183,10 +230,13 @@ const Team = () => {
                 </label>
                 <input
                   className="shadow appearance-none border font-normal  w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
-                  id="username"
+                  id="address"
                   type="text"
                   placeholder="Username"
-                  name="user_date"
+                  name="user_name"
+                  value={address}
+                  onChange={(e) => setAddress(e.target.value)}
+                 required
                 />
               </div>
               <div className=" ">
@@ -196,8 +246,11 @@ const Team = () => {
                   </h5>
                 </label>
                 <select
-                  id="small"
+                  id="country"
                   className="shadow appearance-none border  lg:mt-0 md:mt-[-15%]  md:w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline font-normal "
+                  value={countery}
+                  onChange={(e) => setCountery(e.target.value)}
+                 required
                 >
                   <option selected>Choose a country</option>
                   <option value="US">United States</option>
@@ -225,6 +278,7 @@ const Team = () => {
                       padding: "6px",
                       borderRadius: "2px",
                     }}
+                    htmlFor="file"
                   >
                     PDF
                   </p>
@@ -233,8 +287,9 @@ const Team = () => {
                     id="username"
                     type="file"
                     placeholder="(000) 000 - 0000"
-                    name="user_file"
-                    onChange={handleFileSelect}
+
+                    accept=".pdf"
+                   onChange={handleFileChange}
                   />
                 </div>
               </div>
@@ -245,9 +300,9 @@ const Team = () => {
             <div className="mt-8 mb-12">
               <input
                 className="text-white bg-gradient-to-br from-red-800 to-red-500 hover:bg-gradient-to-bl focus:ring-4 focus:outline-none focus:ring-red-300 dark:focus:ring-red-800 font-medium rounded-sm text-sm px-5 py-2.5 text-center mb-2"
+                value="sent"
                 type="submit"
-                value="Send"
-                // onClick={handleEmail}
+            
                 style={{
                   paddingRight: "55px",
                   paddingLeft: "55px",
