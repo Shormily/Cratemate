@@ -42,7 +42,7 @@ const Team = () => {
     formData.append('file', file);
 
     try {
-      const response = await fetch('http://localhost:5000/api/send-email', {
+      const response = await fetch('https://cratemate-server-shormily.onrender.com/api/send-email', {
         method: 'POST',
         body: formData,
       });

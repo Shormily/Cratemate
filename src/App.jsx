@@ -3,7 +3,7 @@ import './App.css'
 import ScrollToTop from 'react-scroll-to-top'
 import Home from './Pages/Home/Home'
 import Footer from './Pages/Home/Footer/Footer'
-import { MdKeyboardArrowUp } from "react-icons/md";
+import { BsArrowUp } from "react-icons/bs";
 import Hero from './Pages/Home/Hero/Hero'
 import Team from './Pages/Home/Team/Team'
 import Contacts from './Pages/Home/Contacts/Contacts'
@@ -36,13 +36,13 @@ function App() {
    style={{
     boxShadow: "none",
     backgroundColor: "#DC3318",
-    borderRadius: "50%",
+    borderRadius: "2%",
     right: 50,
     zIndex: 20,
   }}
   component={
-    <MdKeyboardArrowUp
-      style={{ fontSize: "20px", margin: "0 auto", color: "white" }}
+    <BsArrowUp
+      style={{ fontSize: "30px", margin: "0 auto", color: "white" }}
     />
   }
    smooth
