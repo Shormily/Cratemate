@@ -10,7 +10,7 @@ const NavService = () => {
     return (
         <>
             <div className="text-gray-950 shadow-md  w-full bg-white">
-        <div className="max-w-screen-xl pt-2 pb-2   flex items-center justify-between mx-auto  px-8 ">
+        <div className="max-w-screen-xl pt-3 pb-3   flex items-center justify-between mx-auto  px-8 ">
         <NavLink as={NavLink} to="/"> <div className="items-center">
             <p className="text-4xl logo-weight">
               Cratmate AI
@@ -28,18 +28,18 @@ const NavService = () => {
           <React.Fragment>
             <div className="items-center justify-between  hidden w-full md:flex md:w-auto md:order-1">
               <ul className="hidden sm:flex px-4 p-4 text-gray-950  font-semibold ">
-                <li className="block banner-text mx-4 nav-link py-2 text-gray-950 pl-3 pr-4 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 md:dark:hover:text-cyan-700 text-gray-950 lg:font-semibold dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700">
+                <li className="block banner-text mx-4 nav-link py-2 text-gray-950 pl-3 pr-4 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 md:dark:hover:text-cyan-700 text-gray-950 lg:font-semibold dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700 text-[16px]">
                   <NavLink as={NavLink} to="/">
                   We are Cratmate AI
                   </NavLink>
                 </li>
-                <li className="block banner-text mx-4 nav-link py-2 text-gray-950 pl-3 pr-4 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 md:dark:hover:text-cyan-700 text-gray-950 lg:font-semibold dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700">
+                <li className="block banner-text mx-4 nav-link py-2 text-gray-950 pl-3 pr-4 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 md:dark:hover:text-cyan-700 text-gray-950 lg:font-semibold dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700 text-[16px]">
                   <NavLink as={NavLink} to="/service">
                     What We Do
                   </NavLink>
                 </li>
 
-                <li className="block banner-text mx-4 nav-link py-2 text-gray-950 pl-3 pr-4 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 md:dark:hover:text-cyan-700 text-gray-950 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700">
+                <li className="block banner-text mx-4 nav-link py-2 text-gray-950 pl-3 pr-4 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 md:dark:hover:text-cyan-700 text-gray-950 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700 text-[16px]">
                   <NavLink
                     className="hover:opacity-50 cursor-default "
                     as={NavLink}
@@ -51,7 +51,7 @@ const NavService = () => {
                 <li className="block banner-text mx-4 nav-link py-2 text-gray-950 pl-3 pr-4 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 md:dark:hover:text-cyan-700 text-gray-950 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700">
                   <NavLink
                     as={NavLink}
-                    className="hover:opacity-50 cursor-default "
+                    className="hover:opacity-50 cursor-default text-[16px]"
                     to="/contact"
                   >
                     Contact Us
