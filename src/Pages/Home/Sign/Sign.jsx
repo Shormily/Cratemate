@@ -121,7 +121,7 @@ const Sign = () => {
         <div className="sign">
           <div className=" m-auto max-w-[1240px] flex item-center  justify-center">
             <div className="login-margin ">
-              <h1 className="text-5xl text-shadow-lg mx-5  cont-pra mt-12">
+              <h1 className="text-5xl text-shadow-lg mx-5   mt-12">
                 Welcome Back
               </h1>
               <div className="mt-5 pb-3">
@@ -204,14 +204,14 @@ const Sign = () => {
 
               <button onClick={notify}>{error}</button>
             
-              <p className="text-red-600 cont-pra pb-3"></p>
+              <p className="text-red-600  pb-3"></p>
               <input
                 className="text-white w-full bg-gradient-to-r from-blue-500 via-blue-600 to-blue-700 hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 shadow-lg shadow-blue-500/50 dark:shadow-lg dark:shadow-blue-800/80 font-medium rounded-lg text-sm px-5 py-2.5 text-center mr-2 mb-2 "
                 onBlur={handlePasswordBlur}
                 type="submit"
                 value="Register"
               />
-              <p className="text-center cont-pra text-white pt-3 pb-3">- OR -</p>
+              <p className="text-center  text-white pt-3 pb-3">- OR -</p>
               <div className=" ">
                 {/* <button
                   type="button"
@@ -256,7 +256,7 @@ const Sign = () => {
               </div>
               <NavLink as={NavLink} to="/login" className="text-border">
                 {" "}
-                <p className="ml-5 text-white cont-pra text-center  login-heading mt-5 ">
+                <p className="ml-5 text-white  text-center  login-heading mt-5 ">
                   Don’t have account ?{" "}
                   <span className="textss">Create Account</span>{" "}
                 </p>

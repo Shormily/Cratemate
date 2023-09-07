@@ -80,16 +80,16 @@ export default function AboutTabs() {
         <Tabs
           value={value}
           onChange={handleChange}
-          textColor="#003B49"
+          textColor="#1d4ed8"
           indicatorColor="primary"
           variant="scrollable"
           scrollButtons="auto"
           aria-label="basic tabs example"
           TabIndicatorProps={{style: {
-            backgroundColor: "#004d40",
+            backgroundColor: "#1d4ed8",
             height: "3px",
             // fontWeight:900,
-            border: "1px solid #000",
+            border: "1px solid #1d4ed8",
             // borderTopLeftRadius: "10px",
             // borderTopRightRadius: "10px"
           }, className: "hidden  sm:block " }}
@@ -99,9 +99,9 @@ export default function AboutTabs() {
         >
           <Tab
             sx={{
-              color: "#003B49",
+              color: "#1d4ed8",
               fontSize: 12,
-              fontFamily: "'Roboto', sans-serif;",
+              fontFamily: "'Raleway', sans-serif",
               fontWeight: 900,
             }}
             label=" Classification"
@@ -109,9 +109,9 @@ export default function AboutTabs() {
           />
           <Tab
             sx={{
-              color: "#003B49",
+              color: "#1d4ed8",
               fontSize: 12,
-              fontFamily: "'Roboto', sans-serif;",
+              fontFamily: "'Raleway', sans-serif",
               fontWeight: 900,
             }}
             label="Annotation"
@@ -119,9 +119,9 @@ export default function AboutTabs() {
           />
           <Tab
             sx={{
-              color: "#003B49",
+              color: "#1d4ed8",
               fontSize: 12,
-              fontFamily: "'Roboto', sans-serif;",
+              fontFamily: "'Raleway', sans-serif",
               fontWeight: 900,
             }}
             label="Transcription"
@@ -129,9 +129,9 @@ export default function AboutTabs() {
           />
           <Tab
             sx={{
-              color: "#003B49",
+              color: "#1d4ed8",
               fontSize: 12,
-              fontFamily: "'Roboto', sans-serif;",
+              fontFamily: "'Raleway', sans-serif",
               fontWeight: 900,
             }}
             label="
@@ -147,7 +147,7 @@ Translation"
           <TabPanel value={value} index={tab.id}>
             <div className="">
               <div className="w-full rounded-md  lg:pr-5 px-5 ">
-                <div className="block  font-normal mt-5 mb-2  text-slate-950 text-[15px]  pr-5 cont-pra ">
+                <div className="block  font-medium mt-5 mb-2  text-slate-950 text-[15px]  pr-5  ">
                   {tab.pra}
                 </div>
               </div>

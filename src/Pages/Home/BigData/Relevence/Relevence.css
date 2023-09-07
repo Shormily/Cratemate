@@ -21,6 +21,10 @@
 .imgs{
     filter: brightness(0) invert(1);
 }
+.imges{
+    -webkit-filter: hue-rotate(00deg);
+          filter: hue-rotate(750deg);
+}
 .boxs::before {
     content: "";
     position: absolute;
@@ -70,7 +74,3 @@
 }
 
 
-.content-text{
-    font-family: 'Roboto', sans-serif;
-    font-weight: 700; 
-}

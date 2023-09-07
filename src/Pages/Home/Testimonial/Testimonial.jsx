@@ -168,7 +168,7 @@ const Testimonial = () => {
                       {service.description}
                     </p>
 
-                    <p className="cont-pra text-[13px] flex">
+                    <p className=" text-[13px] flex">
                       Read More{" "}
                       <AiOutlineDoubleRight size={15} className="mx-1 mt-1" />
                     </p>

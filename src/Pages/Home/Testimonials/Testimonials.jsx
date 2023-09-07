@@ -120,7 +120,7 @@ const Testimonials = () => {
                       {service.description}
                     </p>
 
-                    <p className="cont-pra text-center text-[13px] flex">
+                    <p className=" text-center text-[13px] flex">
                       Read More{" "}
                      
                     </p>

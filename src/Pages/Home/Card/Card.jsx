@@ -30,10 +30,10 @@ const Card = () => {
     <>
     <div id="card">
     <div className="max-w-[1240px] m-auto pl-8 mt-8">
-        <h1 className="  pt-8 text-gray-600 text-4xl  service-heading    mx-3 ">
+        <h1 className="  pt-8 text-gray-950 text-4xl font-bold mx-3 ">
           Subject Matter Expertise
         </h1>
-        <p className=" font-normal mt-4 mb-3 text-style text-gray-600 mx-3">
+        <p className=" font-medium mt-4 mb-3 text-style text-gray-600 mx-3">
           Trusted partners to deliver full-service support through every stage
           of the AI lifecycle.
         </p>
@@ -46,10 +46,10 @@ const Card = () => {
               <div className="glass"></div>
               <div className="content">
                 <img className="mt-12" src={service.img} alt="" />
-                <h2 className=" text-gray-600 text-[23px] cont-pra">
+                <h2 className=" text-gray-700 font-semibold text-[23px] ">
                   {service.name}
                 </h2>
-                <p className=" font-normal mt-4 mb-3 text-[14px] text-style text-gray-700 mx-3">
+                <p className=" font-medium mt-4 mb-3 text-[14px] text-style text-gray-700 mx-3">
                   {service.description}
                 </p>
               </div>

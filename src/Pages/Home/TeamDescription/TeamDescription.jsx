@@ -89,11 +89,11 @@ const TeamDescription = () => {
   ];
   return (
     <>
-      <div className="max-w-[1250px] m-auto ">
-        <h1 className="mx-12 pt-12  pb-8 text-5xl text-gray-900 text-shadow-lg  animate__animated animate__fadeInUp ">
-          Join Our Team and Shape the Future with Cratmate AI
+      <div className="max-w-[1250px] m-auto  ">
+        <h1 className="mx-12 pt-12  pb-8 text-center text-5xl text-gray-950 text-shadow-lg  animate__animated animate__fadeInUp font-extrabold ">
+          Join Our <span className='text-[#1d4ed8]'>Team and Shape the</span>  Future with Cratmate AI
         </h1>
-        <p className="mx-12   text-[15px] font-normal  pb-5  text-slate-950 text-shadow-lg    text-styles animate__animated animate__fadeInUp">
+        <p className="mx-12   text-[15px] font-medium text-center  pb-5  text-slate-950 text-shadow-lg    text-styles animate__animated animate__fadeInUp">
           Are you passionate about harnessing the power of cutting-edge
           technology to drive innovation and shape the future ? <br /> Do you
           thrive in a collaborative and dynamic environment where creativity
@@ -103,32 +103,32 @@ const TeamDescription = () => {
           <br /> and we're looking for exceptional individuals to join us in
           this exciting journey.
         </p>
-        <h1 className="mx-12 text-center pt-4  pb-5 text-4xl text-gray-700 text-shadow-lg  animate__animated animate__fadeInUp ">
+        <h1 className="mx-12 text-center font-bold pt-4  pb-5 text-4xl text-gray-950 text-shadow-lg  animate__animated animate__fadeInUp ">
           Why Work with Us ?
         </h1>
         <div className="grid lg:grid-cols-3 gap-12 md:grid-cols-2 sm:grid-cols-1 mt-12 mx-12 animate__animated animate__fadeInUp">
           {services.map((service) => (
             <>
               <div className="">
-                <h1 className="text-2xl text-[#629dad]">{service.name}</h1>
-                <p className="mt-3   text-[15px] font-normal   text-slate-950 text-shadow-lg    text-styles">
+                <h1 className="text-2xl font-semibold text-center text-[#1d4ed8]">{service.name}</h1>
+                <p className="mt-3   text-[15px] font-medium   text-slate-950 text-shadow-lg    text-styles">
                   {service.description}
                 </p>
               </div>
             </>
           ))}
         </div>
-        <h1 className="mx-12 text-center pt-12  text-4xl text-gray-700 text-shadow-lg  ">
+        <h1 className="mx-12 text-center font-bold pt-12  text-4xl text-gray-950 text-shadow-lg  ">
           Open Positions
         </h1>
         <div className="grid lg:grid-cols-4 mb-8 gap-12 md:grid-cols-2 sm:grid-cols-1 mt-12   mx-12">
           {positions.map((position) => (
             <>
               <div className="">
-                <h1 className="text-2xl text-[#629dad]">
-                  {position.name} :{" "}
+                <h1 className="text-2xl  font-semibold text-[#1d4ed8] ">
+                  {position.name} {" "}
                 </h1>
-                <p className="mt-3   text-[15px] font-normal   text-slate-950 text-shadow-lg    text-styles">
+                <p className="mt-3    text-[15px] font-medium   text-slate-950 text-shadow-lg    text-styles">
                   {" "}
                   {position.explain}
                 </p>
@@ -136,15 +136,15 @@ const TeamDescription = () => {
             </>
           ))}
         </div>
-        <h1 className="mx-12 text-center pt-12  text-4xl text-gray-700 text-shadow-lg">
+        <h1 className="mx-12 text-center font-extrabold pt-12  text-4xl text-gray-950 text-shadow-lg">
           What We Value
         </h1>
         <div className="grid lg:grid-cols-4 mb-12 gap-12 md:grid-cols-2 sm:grid-cols-1 mt-12   mx-12">
           {Values.map((Value) => (
             <>
               <div className="">
-                <h1 className="text-2xl text-[#629dad]">{Value.name} : </h1>
-                <p className="mt-3   text-[15px] font-normal   text-slate-950 text-shadow-lg    text-styles">
+                <h1 className="text-2xl font-semibold  text-[#1d4ed8]">{Value.name} : </h1>
+                <p className="mt-3   text-[15px] font-medium    text-slate-950 text-shadow-lg    text-styles">
                   {" "}
                   {Value.explain}
                 </p>
@@ -152,49 +152,49 @@ const TeamDescription = () => {
             </>
           ))}
         </div>
-        <h1 className="mx-12 text-center pt-12  text-4xl text-gray-700 text-shadow-lg">
+        <h1 className="mx-12 text-center pt-12 font-extrabold text-4xl text-gray-950 text-shadow-lg">
           Benefits and Perks
         </h1>
         <div className="mt-12   mx-12">
           <div className="">
         
-            <p className="cont-pra text-gray-500  text-[18px]">   
-              1.<span className="mx-3">Competitive salary packages</span> 
+            <p className=" text-gray-900 font-bold text-[18px]">   
+           <span className='text-2xl'>1.</span><span className="mx-3  text-[18px] text-[#1d4ed8] font-medium">Competitive salary packages</span> 
             </p>
-            <p className="cont-pra text-gray-500  text-[18px]">        
-              2. <span className="mx-2">Flexible work arrangements</span>
+            <p className=" text-gray-900  text-[18px] font-medium">        
+            <span className='text-2xl font-bold'>2.</span><span className="mx-2 text-[#1d4ed8] font-medium">Flexible work arrangements</span>
             </p>
-            <p className="cont-pra text-gray-500  text-[18px]">        
-              3. <span className="mx-2">Health and wellness programs</span>
+            <p className=" text-gray-900  text-[18px]">        
+            <span className='text-2xl font-bold'>3.</span><span className="mx-2 text-[#1d4ed8] font-medium" >Health and wellness programs</span>
             </p>
-            <p className="cont-pra text-gray-500  text-[18px]">        
-              4. <span className="mx-2">Professional development opportunities</span>
+            <p className=" text-gray-900  text-[18px]">        
+            <span className='text-2xl font-bold'>4.</span><span className="mx-2 text-[#1d4ed8] font-medium">Professional development opportunities</span>
             </p>
-            <p className="cont-pra text-gray-500  text-[18px]">     
-              5.<span className="mx-2"> Innovation-driven culture</span>
+            <p className=" text-gray-900  text-[18px]">     
+            <span className='text-2xl font-bold'>5.</span><span className="mx-2 text-[#1d4ed8] font-medium"> Innovation-driven culture</span>
             </p>
-            <p className="cont-pra text-gray-500  text-[18px]">
-             6.  <span className="mx-2">Collaborative and inclusive environment</span>
+            <p className=" text-gray-900  text-[18px]">
+            <span className='text-2xl font-bold'>6.</span><span className="mx-2 text-[#1d4ed8] font-medium">Collaborative and inclusive environment</span>
             </p>
           </div>
         </div>
-        <h1 className="mx-12 text-center pt-12  text-4xl text-gray-700 text-shadow-lg">
+        <h1 className="mx-12 text-center pt-12 font-extrabold   text-4xl text-gray-950 text-shadow-lg">
         How to Apply
         </h1>
         <div className="mt-12   mx-12">
-          <div className="">
+          <div className="font-normal">
            
-            <p className=" text-gray-700  text-[15px]">   
+            <p className=" text-gray-950 font-medium text-center  text-[15px]">   
             Are you excited to be part of a team that's shaping the future of AI and data-driven solutions? Join us in creating technology that transforms industries and makes a lasting impact. Explore our current openings and apply today by sending your resume and a cover letter to umesh@cratmate.com.
-            </p>
-            <p className=" text-gray-700  text-[15px]">   
+            
+            
             At Cratmate AI, you'll not only be part of a team; you'll be part of a movement that's driving innovation, pushing boundaries, and making waves in the world of technology. Let's shape the future together.
             </p>
            
           </div>
         </div>
 
-        <p className="mx-12 cont-pra text-red-600  text-[19px] mt-4 mb-5">If you want to join our company please fill this form :</p>
+        <p className="mx-12  text-[#1d4ed8] font-semibold  text-[19px] mt-4 mb-5">If you want to join our company please fill this form :</p>
       </div>
     </>
   );

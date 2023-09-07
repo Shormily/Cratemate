@@ -81,11 +81,11 @@ export default function AboutTabs() {
 
   return (
     <div id="tab">
-<Box className="max-w-[1200px]  m-auto  mb-24" sx={{ width: "100%" }}>
-      <h1 className=" pt-12 mt-4 text-gray-600 text-4xl  service-heading    mx-3 ">
+    <Box className="max-w-[1200px]  m-auto  mb-24" sx={{ width: "100%" }}>
+      <h1 className=" pt-12 mt-4 text-gray-950 text-4xl  font-bold    mx-3 ">
       Quality AI training data for the AI lifecycle
       </h1>
-      <p className="font-normal mt-4 mb-3 text-style text-gray-600 mx-3">
+      <p className="font-medium mt-4 mb-3 text-style text-gray-800 mx-3">
       A complete solution for AI training data sourcing, preparation, and model evaluation.
       </p>
       <Box sx={{ borderBottom: 1, borderColor: "divider",color: "#003B49", }}>
@@ -93,14 +93,14 @@ export default function AboutTabs() {
         <Tabs
           value={value}
           onChange={handleChange}
-          textColor="#003B49"
-          indicatorColor="#004d40" 
+          textColor="#1d4ed8"
+          indicatorColor="#1d4ed8" 
           aria-label="basic tabs example"
           TabIndicatorProps={{ style: {
-            backgroundColor: "#004d40",
+            backgroundColor: "#1d4ed8",
             height: "3px",
             // fontWeight:900,
-            border: "1px solid #000",
+            border: "1px solid #1d4ed8",
             // borderTopLeftRadius: "10px",
             // borderTopRightRadius: "10px"
           }, className: "hidden  sm:block " } }
@@ -110,25 +110,25 @@ export default function AboutTabs() {
          
         >
           <Tab
-           sx={{ color:"#003B49",fontSize:12,fontFamily:"'Roboto', sans-serif",fontWeight:900 }}
+           sx={{ color:"#1d4ed8",fontSize:12,fontFamily:"'Raleway', sans-serif",fontWeight:900 }}
             label="Data Sourcing"
             {...a11yProps(0)}
            
           />
           <Tab
-            sx={{ color:"#003B49",fontSize:12,fontFamily:"'Roboto', sans-serif",fontWeight:900 }}
+            sx={{ color:"#1d4ed8",fontSize:12,fontFamily:"'Raleway', sans-serif",fontWeight:900 }}
             label="
             Data Preparation"
             {...a11yProps(1)}
           />
           <Tab
-             sx={{ color:"#003B49",fontSize:12,fontFamily:"'Roboto', sans-serif",fontWeight:900 }}
+             sx={{ color:"#1d4ed8",fontSize:12,fontFamily:"'Raleway', sans-serif",fontWeight:900 }}
             label="
             Model Development Partners"
             {...a11yProps(2)}
           />
           <Tab
-            sx={{ color:"#003B49",fontSize:12,fontFamily:"'Roboto', sans-serif",fontWeight:900 }}
+            sx={{ color:"#1d4ed8",fontSize:12,fontFamily:"'Raleway', sans-serif",fontWeight:900 }}
             label="
             Human-in-the-Loop Model Evaluation "
             {...a11yProps(3)}
@@ -141,10 +141,10 @@ export default function AboutTabs() {
           <TabPanel value={value} index={tab.id}>
             <div className="grid lg:grid-cols-2 md:grid-cols-2 sm:grid-cols-1">
               <div className="animate__animated animate__zoomIn">
-                <img className="rounded-md " src={tab.img} alt="" />
+                <img className="rounded-md imges" src={tab.img} alt="" />
               </div>
               <div className="w-full rounded-md  lg:pr-5 px-5 animate__animated animate__zoomIn">
-                <div className="block  font-semibold mt-5 mb-2  text-gray-900  pr-5 cont-pra ">
+                <div className="block  font-semibold mt-5 mb-2  text-gray-900  pr-5  ">
                 {tab.folder}
                 </div>
               </div>

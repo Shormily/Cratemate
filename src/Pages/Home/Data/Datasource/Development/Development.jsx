@@ -58,56 +58,85 @@ export default function AboutTabs() {
 
   return (
     <Box className="  m-auto " sx={{ width: "100%" }}>
-      <Box sx={{ borderBottom: 1, borderColor: "divider", color: "#003B49" }}>
-        <Tabs
-          value={value}
-          onChange={handleChange}
-          textColor="#003B49"
-          indicatorColor="primary"
-          variant="scrollable"
-          scrollButtons="auto"
-          aria-label="basic tabs example"
-          TabIndicatorProps={{style: {
-            backgroundColor: "#004d40",
-            height: "3px",
-            // fontWeight:900,
-            border: "1px solid #000",
-            // borderTopLeftRadius: "10px",
-            // borderTopRightRadius: "10px"
-          }, className: "hidden  sm:block " }}
-          classes={{
-            flexContainer: "flex-wrap sm:flex-nowrap",
+    <Box sx={{ borderBottom: 1, borderColor: "divider", color: "#003B49" }}>
+      <Tabs
+        value={value}
+        onChange={handleChange}
+        textColor="#1d4ed8"
+        indicatorColor="primary"
+        variant="scrollable"
+        scrollButtons="auto"
+        aria-label="basic tabs example"
+        TabIndicatorProps={{style: {
+          backgroundColor: "#1d4ed8",
+          height: "3px",
+          // fontWeight:900,
+          border: "1px solid #1d4ed8",
+          // borderTopLeftRadius: "10px",
+          // borderTopRightRadius: "10px"
+        }, className: "hidden  sm:block " }}
+        classes={{
+          flexContainer: "flex-wrap sm:flex-nowrap",
+        }}
+      >
+        <Tab
+          sx={{
+            color: "#1d4ed8",
+            fontSize: 12,
+            fontFamily: "'Raleway', sans-serif",
+            fontWeight: 900,
           }}
-        >
-          <Tab
-            sx={{
-              color: "#003B49",
-              fontSize: 12,
-              fontFamily: "'Roboto', sans-serif",
-              fontWeight: 900,
-            }}
-            label=" Our Strategic Partners"
-            {...a11yProps(0)}
-          />
-     
-       
+          label=" Classification"
+          {...a11yProps(0)}
+        />
+        <Tab
+          sx={{
+            color: "#1d4ed8",
+            fontSize: 12,
+            fontFamily: "'Raleway', sans-serif",
+            fontWeight: 900,
+          }}
+          label="Annotation"
+          {...a11yProps(1)}
+        />
+        <Tab
+          sx={{
+            color: "#1d4ed8",
+            fontSize: 12,
+            fontFamily: "'Raleway', sans-serif",
+            fontWeight: 900,
+          }}
+          label="Transcription"
+          {...a11yProps(2)}
+        />
+        <Tab
+          sx={{
+            color: "#1d4ed8",
+            fontSize: 12,
+            fontFamily: "'Raleway', sans-serif",
+            fontWeight: 900,
+          }}
+          label="
           
+Translation"
+          {...a11yProps(3)}
+        />
       
-        </Tabs>
-      </Box>
-      {Tabse.map((tab) => (
-        <>
-          <TabPanel value={value} index={tab.id}>
-            <div className="">
-              <div className="w-full rounded-md  lg:pr-5 px-5 ">
-                <div className="block  font-normal mt-5 mb-2 text-[15px]  text-gray-900  pr-5 cont-pra ">
-                  {tab.pra}
-                </div>
+      </Tabs>
+    </Box>
+    {Tabse.map((tab) => (
+      <>
+        <TabPanel value={value} index={tab.id}>
+          <div className="">
+            <div className="w-full rounded-md  lg:pr-5 px-5 ">
+              <div className="block  font-medium mt-5 mb-2  text-slate-950 text-[15px]  pr-5  ">
+                {tab.pra}
               </div>
             </div>
-          </TabPanel>
-        </>
-      ))}
-    </Box>
+          </div>
+        </TabPanel>
+      </>
+    ))}
+  </Box>
   );
 }

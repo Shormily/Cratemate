@@ -82,27 +82,27 @@ export default function AboutTabs() {
   return (
     <div id="tabtable" >
  <Box className="max-w-[1200px]  m-auto " sx={{ width: "100%" }}>
-      <h1 className=" text-gray-600 text-4xl  service-heading    mx-3 ">
+      <h1 className=" text-gray-950 text-4xl  font-bold    mx-3 ">
         Secure Data
       </h1>
-      <p className="font-normal mt-4 mb-3 text-style text-gray-600 mx-3">
+      <p className="font-medium mt-4 mb-3 text-style text-gray-800 mx-3">
         Enhance data security with enterprise-level protection for sensitive
         client information.
       </p>
-      <Box sx={{ borderBottom: 1, borderColor: "divider",color: "#003B49", }}>
+      <Box sx={{ borderBottom: 1, borderColor: "divider",color: "#1d4ed8", }}>
         <Tabs
           value={value}
           onChange={handleChange}
-          textColor="#003B49"
-                indicatorColor="primary"
+          textColor="#1d4ed8"
+                indicatorColor="#1d4ed8"
                 variant="scrollable"
                 scrollButtons="auto"
           aria-label="basic tabs example"
           TabIndicatorProps={{style: {
-            backgroundColor: "#004d40",
+            backgroundColor: "#1d4ed8",
             height: "3px",
             // fontWeight:900,
-            border: "1px solid #000",
+            border: "1px solid #1d4ed8",
             // borderTopLeftRadius: "10px",
             // borderTopRightRadius: "10px"
           }, className: "hidden  sm:block " } }
@@ -112,27 +112,27 @@ export default function AboutTabs() {
          
         >
           <Tab
-           sx={{ color:"#003B49",fontSize:12,fontFamily:"'Roboto', sans-serif",fontWeight:900 }}
+           sx={{ color:"#1d4ed8",fontSize:12,fontFamily:"'Raleway', sans-serif",fontWeight:900 }}
             label="Secoure Data Access"
             {...a11yProps(0)}
           />
           <Tab
-             sx={{ color:"#003B49",fontSize:12,fontFamily:"'Roboto', sans-serif",fontWeight:900 }}
+             sx={{ color:"#1d4ed8",fontSize:12,fontFamily:"'Raleway', sans-serif",fontWeight:900 }}
             label="Secure Crowd"
             {...a11yProps(1)}
           />
           <Tab
-             sx={{ color:"#003B49",fontSize:12,fontFamily:"'Roboto', sans-serif",fontWeight:900 }}
+             sx={{ color:"#1d4ed8",fontSize:12,fontFamily:"'Raleway', sans-serif",fontWeight:900 }}
             label="Secure Facilities"
             {...a11yProps(2)}
           />
           <Tab
-            sx={{ color:"#003B49",fontSize:12,fontFamily:"'Roboto', sans-serif",fontWeight:900 }}
+            sx={{ color:"#1d4ed8",fontSize:12,fontFamily:"'Raleway', sans-serif",fontWeight:900 }}
             label="Secure Workspace "
             {...a11yProps(3)}
           />
           <Tab
-             sx={{ color:"#003B49",fontSize:12,fontFamily:"'Roboto', sans-serif",fontWeight:900 }}
+             sx={{ color:"#1d4ed8",fontSize:12,fontFamily:"'Raleway', sans-serif",fontWeight:900 }}
             label="Certifications"
             {...a11yProps(4)}
           />
@@ -143,13 +143,13 @@ export default function AboutTabs() {
           <TabPanel value={value} index={tab.id}>
             <div className="grid lg:grid-cols-2 md:grid-cols-2 sm:grid-cols-1">
               <div className="animate__animated animate__zoomIn">
-                <img className="rounded-md  " src={tab.img} alt="" />
+                <img className="rounded-md imges " src={tab.img} alt="" />
               </div>
               <div className="w-full rounded-md  lg:pr-5 px-5 ">
-                <h3 className="text-gray-950 text-3xl cont-pra  pt-12">
+                <h3 className="text-gray-950 text-3xl font-semibold   pt-12">
                   {tab.name}
                 </h3>
-                <div className="block  font-normal text-[15px] mt-5 mb-2  text-gray-900  pr-5 cont-pra ">
+                <div className="block  font-medium text-[15px] mt-5 mb-2  text-gray-900  pr-5  ">
                   {tab.pra}
                 </div>
               </div>

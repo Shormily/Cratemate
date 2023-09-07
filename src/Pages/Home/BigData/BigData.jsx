@@ -119,14 +119,14 @@ export default function AboutTabs() {
     <>
     
    <div className="max-w-[1340px] m-auto pb-6 pt-5" id="Data">
-    <h1 className=" pt-8 text-gray-600 text-4xl  service-heading    mx-3 ">
+    <h1 className=" pt-8 text-gray-950 text-4xl  font-semibold   mx-3 ">
     Empowering AI Models: From Inception to Mastery
       </h1>
-      <p className="font-normal mt-4 mb-3 text-style text-gray-600 mx-3">
+      <p className="font-medium mt-4 mb-3 text-style text-gray-700 mx-3">
       Harnessing the power of AI and machine learning, our models are fortified with top-notch training data and expertly managed services.
       </p></div>
     
-     <div className="max-w-[1340px] m-auto Bigdata-background" id="hero" >
+     <div className="max-w-[1340px] m-auto bg-gray-950" id="hero" >
     <Box className="max-w-[1310px]  m-auto " sx={{ width: "100%" }}>
          <Box sx={{ borderBottom: 1, borderColor: "divider", color: "#fff", }}>
            <Tabs
@@ -147,7 +147,7 @@ export default function AboutTabs() {
                  // borderTopLeftRadius: "10px",
                  // borderTopRightRadius: "10px"
                },
-               className: "hidden  sm:block ",
+               className: "hidden  sm:block font-bold ",
              }}
              classes={{
                flexContainer: "flex-wrap sm:flex-nowrap",
@@ -158,7 +158,7 @@ export default function AboutTabs() {
                 color: "#fff",
                 fontSize: 15,
                 textTransform :"none",
-                fontFamily: "'Roboto', sans-serif",
+                fontFamily: "'Raleway', sans-serif",
                 fontWeight: "",
               }}
               label="
@@ -170,7 +170,7 @@ export default function AboutTabs() {
                  color: "#fff",
                  fontSize: 15,
                  textTransform :"none",
-                 fontFamily: "''Roboto', sans-serif",
+                 fontFamily: "'Raleway', sans-serif",
                  fontWeight: "",
                }}
                label="
@@ -182,7 +182,7 @@ export default function AboutTabs() {
                  color: "#fff",
                  fontSize: 15,
                  textTransform :"none",
-                 fontFamily: "'Roboto', sans-serif",
+                 fontFamily: "'Raleway', sans-serif",
                  fontWeight: "",
               
                }}
@@ -196,7 +196,7 @@ export default function AboutTabs() {
                  color: "#fff",
                  fontSize: 15,
                  textTransform :"none",
-                 fontFamily: "'Roboto', sans-serif",
+                 fontFamily: "'Raleway', sans-serif",
                  fontWeight: "",
                }}
                label="Computer Vision"
@@ -207,7 +207,7 @@ export default function AboutTabs() {
                  color: "#fff",
                  fontSize: 15,
                  textTransform :"none",
-                 fontFamily: "'Roboto', sans-serif",
+                 fontFamily: "'Raleway', sans-serif",
                  fontWeight: "",
                }}
                label="NLP & Speech"
@@ -218,7 +218,7 @@ export default function AboutTabs() {
                  color: "#fff",
                  fontSize: 15,
                  textTransform :"none",
-                 fontFamily: "'Roboto', sans-serif",
+                 fontFamily: "'Raleway', sans-serif",
                  fontWeight: "",
                }}
                label="Chatbots & Conversational AI"
@@ -229,7 +229,7 @@ export default function AboutTabs() {
                  color: "#fff",
                  fontSize: 15,
                  textTransform :"none",
-                 fontFamily: "'Roboto', sans-serif",
+                 fontFamily: "'Raleway', sans-serif",
                  fontWeight: "",
                }}
                label="AR/VR"
@@ -240,7 +240,7 @@ export default function AboutTabs() {
                  color: "#fff",
                  fontSize: 15,
                  textTransform :"none",
-                 fontFamily: "'Roboto', sans-serif",
+                 fontFamily: "'Raleway', sans-serif",
                  fontWeight: "",
                }}
                label="
@@ -252,7 +252,7 @@ export default function AboutTabs() {
                  color: "#fff",
                  fontSize: 15,
                  textTransform :"none",
-                 fontFamily: "'Roboto', sans-serif",
+                 fontFamily: "'Raleway', sans-serif",
                  fontWeight: "",
                }}
                label="
@@ -266,7 +266,7 @@ export default function AboutTabs() {
              <TabPanel value={value} index={tab.id}>
                <div className="">
                  <div className="w-full rounded-md  lg:pr-5 px-5 ">
-                   <div className="block animate__animated animate__fadeInUp  font-semibold mt-5 mb-2  text-gray-900  pr-5 cont-pra ">
+                   <div className="block animate__animated animate__fadeInUp  font-semibold mt-5 mb-2  text-gray-900  pr-5  ">
                      {tab.name}
                    </div>
                  </div>

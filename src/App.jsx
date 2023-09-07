@@ -35,7 +35,7 @@ function App() {
       <ScrollToTop 
    style={{
     boxShadow: "none",
-    backgroundColor: "#DC3318",
+    backgroundColor: "#1d4ed8",
     borderRadius: "2%",
     right: 50,
     zIndex: 20,
