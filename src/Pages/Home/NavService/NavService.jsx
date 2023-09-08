@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import { NavLink } from "react-router-dom";
 
+
 const NavService = () => {
     const [nav, setNav] = useState(false);
   const handleNav = () => {
@@ -9,8 +10,8 @@ const NavService = () => {
   let [open,setOpen]=useState(false);
     return (
         <>
-             <div className="text-gray-950 shadow-md  w-full bg-white">
-        <div className="max-w-[1500px] m-auto pt-3 pb-3  flex items-center justify-between mx-auto   ">
+             <div className="text-gray-950   w-full bg-white">
+        <div className="max-w-[1500px] m-auto pt-3 pb-3   flex items-center justify-between mx-auto   ">
           <NavLink as={NavLink} to="/">
             {" "}
             <div className="items-center  ">
@@ -96,14 +97,11 @@ const NavService = () => {
                 Contact US
               </NavLink>
             </li>
-
-           
-          
-        
           </ul>
         </div>
         </div>
       </div>
+    
         </>
     );
 };

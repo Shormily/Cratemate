@@ -1,4 +1,7 @@
 import "./Servone.css";
+import DoNavbar from './../DoNavbar/DoNavbar';
+
+
 
 const Servone = () => {
   return (
@@ -96,6 +99,9 @@ const Servone = () => {
           </div>
         </div>
       </section>
+      
+      <DoNavbar/>
+     
     </>
   );
 };

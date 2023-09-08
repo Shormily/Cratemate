@@ -16,12 +16,12 @@ const About = () => {
     <>
       <NavService />
       <Servone/>
-      <DoNavbar/>
+    
       <BigData/> 
-      <Tab/>
+        <Tab/>
       <Tabletab/>
-      <Card/>
-      <Contact/>
+      {/* <Card/>
+      <Contact/> */}
      
     </>
   );

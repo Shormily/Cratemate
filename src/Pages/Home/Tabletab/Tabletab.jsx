@@ -6,6 +6,8 @@ import Typography from "@mui/material/Typography";
 import Box from "@mui/material/Box";
 import "./Tabletab.css";
 import 'animate.css';
+import Card from "../Card/Card";
+import Contact from "../Contact/Contact";
 
 function TabPanel(props) {
   const { children, value, index, ...other } = props;
@@ -158,6 +160,8 @@ export default function AboutTabs() {
         </>
       ))}
     </Box>
+    <Card/>
+    <Contact/>
     </div>
    
   );

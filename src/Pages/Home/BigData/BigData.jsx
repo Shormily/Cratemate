@@ -247,18 +247,7 @@ export default function AboutTabs() {
                Audio"
                {...a11yProps(7)}
              />
-             <Tab
-               sx={{
-                 color: "#fff",
-                 fontSize: 15,
-                 textTransform :"none",
-                 fontFamily: "'Raleway', sans-serif",
-                 fontWeight: "",
-               }}
-               label="
-               Linguistics"
-               {...a11yProps(8)}
-             />
+             
            </Tabs>
          </Box>
          {Tabse.map((tab) => (
@@ -275,7 +264,9 @@ export default function AboutTabs() {
            </>
          ))}
        </Box>
-       </div></>
+       </div>
+       
+       </>
    
     
   );
