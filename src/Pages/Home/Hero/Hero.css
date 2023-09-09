@@ -13,6 +13,13 @@
     font-weight: 700;
 }
 
+.uniform-width-paragraph {
+    max-width: 48rem; /* Adjust this value to your preferred line width */
+    margin: 0 auto; /* Center the paragraph horizontally */
+   text-align: justify;
+   /* justify-items: center; */
+  }
+
 .hero-text{
     font-family: 'Raleway', sans-serif;
     font-weight: 800;

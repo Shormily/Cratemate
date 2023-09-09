@@ -16,23 +16,16 @@ const Hero = () => {
       <div className="  max-w-screen-2xl m-auto">
         <Swiper navigation={true} modules={[Navigation]} className="mySwiper">
           <SwiperSlide>
-          <p className=" text-center mt-24 pb-8   text-gray-950  banner-text text-5xl    animate__animated animate__slideInUp ">
+          <p className=" text-center mt-24 pb-8   text-gray-950  banner-text text-4xl    animate__animated animate__slideInUp ">
                   We are Cratmate AI
                 </p>
-            <div className="grid lg:grid-cols-4 md:grid-cols-3   sm:grid-cols-1  max-w-[1240px] m-auto">
+            <div className="grid lg:grid-cols-4 md:grid-cols-3    sm:grid-cols-1  max-w-[1240px] m-auto">
           
            
-              <div className="lg:col-span-3 md:col-span-3 sm:col-span-1 mx-3     ">
+              <div className="lg:col-span-3 md:col-span-3 prose sm:col-span-1 mx-3     ">
                
-                <p className="block w-[75%]  animate__animated animate__slideInUp font-normal  lg:text-[15px] text-semibold md:text-base font-semibold sm:text-base mt-5 mb-2 hero-text">
-                  Welcome to Cratmate AI Technology Private Limited, operating
-                  as Cratmate AI. We're your go-to destination for a complete
-                  "One-Stop Big Data Solution," helping businesses and tech
-                  providers transform digitally. Our main goal is to enhance
-                  customer experiences, boost operational efficiency, and
-                  provide actionable insights. At Cratmate AI, we possess a wide
-                  range of capabilities. This includes AI Training Data Set
-                  Collection, Premium/Customized Data Collection, and
+                <p className="block w-[75%] text-justify   animate__animated animate__slideInUp font-normal  lg:text-[15px]  md:text-base font-semibold sm:text-base mt-5 mb-2 hero-text">
+                  Welcome to Cratmate AI Technology Private Limited, operating as Cratmate AI. We're your go-to destination for a complete "One-Stop Big Data Solution," helping businesses and tech providers transform digitally. Our main goal is to enhancecustomer experiences, boost operational efficiency, and provide actionable insights. At Cratmate AI, we possess a wide range of capabilities. This includes AI Training Data SetCollection, Premium/Customized Data Collection, and
                   Multilingual Data Collection. Our expertise lies in providing
                   structured data in various formats such as Text, Images,Audio,
                   Video, and Web pages. With our extensive experience in Data
@@ -57,22 +50,23 @@ const Hero = () => {
               </div>
               <div className=" md:pt-12 grid grid justify-items-start mb-12   ">
                 <img
-                  className="w-64  h-64 lg:mt-24 md:mt-2 sm:mt-2 lg:mr-32  lg:mx-2 md:mx-64 animate__animated  animate__flipInY"
+                  className="w-64  h-64 lg:mt-12 md:mt-2 sm:mt-2 lg:mr-32  lg:mx-2 md:mx-64 animate__animated  animate__flipInY"
                   src="https://i.ibb.co/R2XVz9j/Logo.png"
                   alt=""
                 />
               </div>
             </div>
           </SwiperSlide>
-          <SwiperSlide>
-            <div className="grid lg:grid-cols-4 md:grid-cols-3  mb-8  sm:grid-cols-1 max-w-[1240px] m-auto  ">
-              <div className="lg:col-span-3 md:col-span-3 mb-12 sm:col-span-1 mx-3 mt-24  ">
-                <p className=" text-[#1d4ed8] text-5xl banner-text  mb-12  animate__animated animate__slideInUp ">
+          <SwiperSlide className="mb-12">
+          <p className="  text-center text-4xl banner-text  mb-8 mt-24  animate__animated animate__slideInUp ">
                   Our Company
                 </p>
+            <div className="grid lg:grid-cols-4 md:grid-cols-3  mb-8  sm:grid-cols-1 max-w-[1240px] m-auto  ">
+              <div className="lg:col-span-3 md:col-span-3 mb-12 sm:col-span-1 mx-3   ">
+              
                 <p
                   // className="text-white mt-4  text-base  leading-loose banner-text"
-                  className="block w-[75%]  text-slate-950  font-semibold animate__animated animate__slideInUp  font-normal  text-[15px] mt-5 mb-2 "
+                  className="block w-[75%]  text-slate-950  font-semibold animate__animated animate__slideInUp  font-normal  text-[15px] mt-5 mb-2 text-justify "
                 >
                   The Cratmate AI – a realm where technology and service
                   intertwine to craft the extraordinary. Nestled in India, our
@@ -109,9 +103,9 @@ const Hero = () => {
                   our company's identity.
                 </p>
               </div>
-              <div className="w-64 h-80 lg:mt-40 lg:mt-24 md:mt-2 sm:mt-2 lg:mr-32  lg:mx-2 md:mx-64 ">
+              <div className="w-64 h-80 mt-24 lg:mr-32  lg:mx-2 md:mx-64 ">
                 <img
-                  className="w-64  h-64 mr-32 lg:mt-24 md:mt-2  sm:mt-2  animate__animated  animate__flipInY "
+                  className="w-64  h-64 mr-32   animate__animated  animate__flipInY "
                   src="https://i.ibb.co/R2XVz9j/Logo.png"
                   alt=""
                 />

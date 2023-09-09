@@ -11,7 +11,7 @@ const Card = () => {
       name: " Machine Learning ",
       img: "https://i.ibb.co/3BKGv9v/Frame-1.png",
       description:
-        "Highly experienced engineers in predictive analytics, big data, and data strategy with backgrounds and skills in data science and applied research to manage machine learning projects.",
+        "Highly experienced our engineers in predictive analytics, big data, and data strategy with backgrounds and skills in data science and applied research to manage machine learning projects.",
     },
     {
       name: " Professional Linguists",
@@ -49,7 +49,7 @@ const Card = () => {
                 <h2 className=" text-gray-700 font-semibold text-[23px] ">
                   {service.name}
                 </h2>
-                <p className=" font-medium mt-4 mb-3 text-[14px] text-style text-gray-700 mx-3">
+                <p className=" font-medium text-justify mt-4 mb-3 text-[14px] text-style text-gray-700 mx-3">
                   {service.description}
                 </p>
               </div>

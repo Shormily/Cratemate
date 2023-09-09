@@ -1,30 +1,22 @@
 import "./Servone.css";
-import DoNavbar from './../DoNavbar/DoNavbar';
-
-
+import DoNavbar from "./../DoNavbar/DoNavbar";
 
 const Servone = () => {
   return (
     <>
       <section className="bg-gray-100 pb-8">
         <div>
-          
-          <div className="grid lg:grid-cols-2 md:grid-cols-2 sm:grid-cols-1 max-w-[1240px] m-auto">
+          <div className="grid lg:grid-cols-2 gap-24 md:grid-cols-2 sm:grid-cols-1 max-w-[1240px] m-auto">
             <div className=" pt-8 px-8 ">
               <p className=" pt-8  text-5xl  font-bold text-gray-950  ">
                 Our Services
               </p>
-              <p
-                
-                className=" block leading-loose text-slate-950 animate__animated animate__fadeInUp  font-medium text-style text-[14px] mt-5 mb-2 "
-              >
+              <p className=" block text-justify  leading-loose text-slate-950 animate__animated animate__fadeInUp  font-medium text-style text-[14px] mt-5 mb-2 ">
                 DTP Service, Data Processing, Image Proceesing, Software
-                Development,
-                <br />
-                Web Design, E-commerce Platform, Multilingual Translation, Big
-                Data, <br /> Annotation Service, Data Collection,Transcription,
-                Machine Learning,
-                <br /> Artificial Intelligence, and ASR.
+                Development,Web Design, E-commerce Platform, Multilingual
+                Translation,Big Data,Annotation Service, Data
+                Collection,Transcription, Machine Learning, Artificial
+                Intelligence, and ASR.
               </p>
               <div className="flex mb-4 mt-8">
                 <h1 className="mt-2 text-[#1d4ed8] font-semibold  text-1xl mx-2">
@@ -56,14 +48,13 @@ const Servone = () => {
               className="animate__animated animate__fadeInRight
       mt-8 mb-8"
             >
-            
-              <div className="flex  mt-8  mb-2 lg:w-full sm:w-96 " >
+              <div className="flex  mt-8  mb-2 lg:w-full sm:w-96 ">
                 <img
                   src="https://i.ibb.co/hm72vSb/CMYK-Blue-LVL-1-OTS-Training-Datasets-png.png"
                   className="w-24 h-24 mx-8 imges"
                   alt=""
                 />
-                
+
                 <img
                   src="https://i.ibb.co/nj8prs9/ezgif-com-webp-to-png.png "
                   className="w-24 h-24  imges"
@@ -73,7 +64,6 @@ const Servone = () => {
                   src="https://i.ibb.co/xJyQx5Y/CMYK-Blue-LVL-1-Big-Data-png.png"
                   className="w-24 h-24 ml-7 imges"
                   alt=""
-               
                 />
               </div>
 
@@ -99,9 +89,8 @@ const Servone = () => {
           </div>
         </div>
       </section>
-      
-      <DoNavbar/>
-     
+
+      <DoNavbar />
     </>
   );
 };

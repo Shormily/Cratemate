@@ -89,38 +89,7 @@ export default function AboutTabs() {
           label=" Classification"
           {...a11yProps(0)}
         />
-        <Tab
-          sx={{
-            color: "#1d4ed8",
-            fontSize: 12,
-            fontFamily: "'Raleway', sans-serif",
-            fontWeight: 900,
-          }}
-          label="Annotation"
-          {...a11yProps(1)}
-        />
-        <Tab
-          sx={{
-            color: "#1d4ed8",
-            fontSize: 12,
-            fontFamily: "'Raleway', sans-serif",
-            fontWeight: 900,
-          }}
-          label="Transcription"
-          {...a11yProps(2)}
-        />
-        <Tab
-          sx={{
-            color: "#1d4ed8",
-            fontSize: 12,
-            fontFamily: "'Raleway', sans-serif",
-            fontWeight: 900,
-          }}
-          label="
-          
-Translation"
-          {...a11yProps(3)}
-        />
+       
       
       </Tabs>
     </Box>
@@ -129,7 +98,7 @@ Translation"
         <TabPanel value={value} index={tab.id}>
           <div className="">
             <div className="w-full rounded-md  lg:pr-5 px-5 ">
-              <div className="block  font-medium mt-5 mb-2  text-slate-950 text-[15px]  pr-5  ">
+              <div className="block text-justify font-medium mt-5 mb-2  text-slate-950 text-[15px]  pr-5  ">
                 {tab.pra}
               </div>
             </div>

@@ -11,7 +11,7 @@ const Contact = () => {
               <br />
               Consult
             </h1>
-            <p className="mt-6 block text-slate-900 text-[14px] font-medium mb-2   ">
+            <p className="mt-6 block text-justify text-slate-900 text-[14px] font-medium mb-2   ">
               If you have any questions or would like more information about our
               services, please don’t hesitate to reach out. Our team is here to
               help and answer any questions you may have.
@@ -110,7 +110,7 @@ const Contact = () => {
               type="password"
               placeholder=""
             />
-            <div className="flex mb-4">
+            <div className="flex mb-4 max-w-[150px]  m-auto mt-12">
               <button
                 type="button"
                 className="text-white bg-gradient-to-br from-indigo-600 to-blue-500 hover:bg-gradient-to-bl focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 font-medium  text-sm p-2.5 text-center inline-flex items-center mr-2 dark:bg-cyan-600 dark:hover:bg-cyan-500 dark:focus:ring-cyan-300"
@@ -131,7 +131,7 @@ const Contact = () => {
                   />
                 </svg>
               </button>
-              <h1 className="mt-2 text-[#1d4ed8] font-semibold">Submit</h1>
+              <h1 className="mt-2 text-[#1d4ed8] font-semibold ">Submit</h1>
             </div>
           </div>
         </div>

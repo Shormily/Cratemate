@@ -92,7 +92,7 @@ const Relevence = () => {
           name: "Entity Evaluation & Correction ",
           img: "https://i.ibb.co/wB9Fhrd/RGB-White-Alert-png.png",
           description:
-            "We guarantee the accuracy of crucial business information such as websites, operating hours, and contact details. Feel free to replace icon_data_sourcing.png, icon_data_preparation.png, etc., with the actual file names of the icon images you intend to use.",
+            "We guarantee the accuracy of crucial business information such as websites, operating hours, and contact details. Feel free to replace icon_data_sourcing.png, icon data preparation.png, etc., with the actual file names of the icon images you intend to use.",
         },
       ];
     return (
@@ -105,9 +105,9 @@ const Relevence = () => {
            
               <div className="content   ">  
               <p className="flex gap-4 mb-4 pt-12  ">
-             <img className=" w-12 imgs h-12" src={service.img} alt="" /><span className="pt-2 text-[18px]">{service.name}</span> 
+             <img className=" w-12 imgs  h-justify" src={service.img} alt="" /><span className="pt-2 text-[18px]">{service.name}</span> 
               </p>
-              <p className="text-style text-white font-normal text-[14px] ">
+              <p className="text-style text-white font-normal text-[14px] text-justify">
 
                   {service.description}
                 </p>

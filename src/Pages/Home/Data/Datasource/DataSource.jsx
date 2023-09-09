@@ -160,7 +160,7 @@ export default function AboutTabs() {
           <TabPanel value={value} index={tab.id}>
             <div className="">
               <div className="w-full rounded-md  lg:pr-5 px-5 ">
-                <div className="block text-[14px]  font-medium mt-5 mb-2  text-slate-950 [15px] pr-5 ">
+                <div className="block text-[14px]  text-justify font-medium mt-5 mb-2  text-slate-950 [15px] pr-5 ">
                   {tab.pra}
                 </div>
               </div>

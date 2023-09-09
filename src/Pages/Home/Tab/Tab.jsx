@@ -144,7 +144,7 @@ export default function AboutTabs() {
                 <img className="rounded-md imges" src={tab.img} alt="" />
               </div>
               <div className="w-full rounded-md  lg:pr-5 px-5 animate__animated animate__zoomIn">
-                <div className="block  font-semibold mt-5 mb-2  text-gray-900  pr-5  ">
+                <div className="block  font-semibold mt-5 mb-2 text-justify text-gray-900  pr-5  ">
                 {tab.folder}
                 </div>
               </div>

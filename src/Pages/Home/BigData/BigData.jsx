@@ -126,7 +126,7 @@ export default function AboutTabs() {
       Harnessing the power of AI and machine learning, our models are fortified with top-notch training data and expertly managed services.
       </p></div>
     
-     <div className="max-w-[1340px] m-auto bg-gray-950" id="hero" >
+     <div className="max-w-[1340px] m-auto bg" id="hero" >
     <Box className="max-w-[1310px]  m-auto " sx={{ width: "100%" }}>
          <Box sx={{ borderBottom: 1, borderColor: "divider", color: "#fff", }}>
            <Tabs
