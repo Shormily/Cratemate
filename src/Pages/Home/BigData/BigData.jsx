@@ -118,7 +118,7 @@ export default function AboutTabs() {
   return (
     <>
     
-   <div className="max-w-[1340px] m-auto pb-6 pt-5" id="Data">
+   <div className="max-w-[1500px] m-auto pb-6 pt-5" id="Data">
     <h1 className=" pt-8 text-gray-950 text-4xl  font-semibold   mx-3 ">
     Empowering AI Models: From Inception to Mastery
       </h1>
@@ -126,8 +126,8 @@ export default function AboutTabs() {
       Harnessing the power of AI and machine learning, our models are fortified with top-notch training data and expertly managed services.
       </p></div>
     
-     <div className="max-w-[1340px] m-auto bg" id="hero" >
-    <Box className="max-w-[1310px]  m-auto " sx={{ width: "100%" }}>
+     <div className="max-w-[1500px] m-auto bg" id="hero" >
+    <Box className="max-w-[1500px] m-auto" sx={{ width: "100%" }}>
          <Box sx={{ borderBottom: 1, borderColor: "divider", color: "#fff", }}>
            <Tabs
              value={value}

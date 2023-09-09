@@ -6,7 +6,7 @@ const Servone = () => {
     <>
       <section className="bg-gray-100 pb-8">
         <div>
-          <div className="grid lg:grid-cols-2 gap-24 md:grid-cols-2 sm:grid-cols-1 max-w-[1240px] m-auto">
+          <div className="grid lg:grid-cols-2 gap-24 md:grid-cols-2 sm:grid-cols-1 max-w-[1500px] m-auto">
             <div className=" pt-8 px-8 ">
               <p className=" pt-8  text-5xl  font-bold text-gray-950  ">
                 Our Services

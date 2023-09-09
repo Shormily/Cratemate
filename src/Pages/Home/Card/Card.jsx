@@ -29,7 +29,7 @@ const Card = () => {
   return (
     <>
     <div id="card">
-    <div className="max-w-[1240px] m-auto pl-8 mt-8">
+    <div className="max-w-[1500px] m-auto pl-8 mt-8">
         <h1 className="  pt-8 text-gray-950 text-4xl font-bold mx-3 ">
           Subject Matter Expertise
         </h1>
@@ -39,7 +39,7 @@ const Card = () => {
         </p>
       </div>
 
-      <div className="card mb-12 ">
+      <div className="card mb-12 max-w-[1500px] m-auto">
         {services.map((service) => (
           <>
             <div className="box">

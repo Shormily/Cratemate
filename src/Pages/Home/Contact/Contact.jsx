@@ -3,7 +3,7 @@ import "./Contact.css";
 const Contact = () => {
   return (
     <>
-      <div id="contact" className="grid lg:grid-cols-3 md:grid-cols-3 gap-8  sm:grid-cols-1 max-w-[1240px] m-auto">
+      <div id="contact" className="grid lg:grid-cols-3 md:grid-cols-3 gap-8  sm:grid-cols-1 max-w-[1500px] m-auto">
         <div className=" ">
           <div className="bg-[#EEE]  px-24 pb-24 ">
             <h1 className="text-4xl  pt-24 block text-gray-700  font-semibold mb-2   ">

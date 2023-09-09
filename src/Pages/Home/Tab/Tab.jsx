@@ -81,7 +81,7 @@ export default function AboutTabs() {
 
   return (
     <div id="tab">
-    <Box className="max-w-[1200px]  m-auto  mb-24" sx={{ width: "100%" }}>
+    <Box className="max-w-[1500px] m-auto  mb-24" sx={{ width: "100%" }}>
       <h1 className=" pt-12 mt-4 text-gray-950 text-4xl  font-bold    mx-3 ">
       Quality AI training data for the AI lifecycle
       </h1>
