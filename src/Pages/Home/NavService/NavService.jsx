@@ -89,7 +89,7 @@ const NavService = () => {
             </li>
             <li className="text-2xl text-white py-4">
               <NavLink as={NavLink} to="/team">
-               Join uS our team
+               Join  Our Team
               </NavLink>
             </li>
             <li className="text-2xl text-white py-4">

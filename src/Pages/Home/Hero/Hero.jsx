@@ -16,11 +16,14 @@ const Hero = () => {
       <div className="  max-w-screen-2xl m-auto">
         <Swiper navigation={true} modules={[Navigation]} className="mySwiper">
           <SwiperSlide>
-            <div className="grid lg:grid-cols-4 md:grid-cols-3   sm:grid-cols-1   max-w-[1240px] m-auto">
-              <div className="lg:col-span-3 md:col-span-3 sm:col-span-1 mx-3 mt-24    ">
-                <p className="  pb-8 text-[#1d4ed8]  banner-text text-5xl    animate__animated animate__slideInUp ">
+          <p className=" text-center mt-24 pb-8   text-gray-950  banner-text text-5xl    animate__animated animate__slideInUp ">
                   We are Cratmate AI
                 </p>
+            <div className="grid lg:grid-cols-4 md:grid-cols-3   sm:grid-cols-1  max-w-[1240px] m-auto">
+          
+           
+              <div className="lg:col-span-3 md:col-span-3 sm:col-span-1 mx-3     ">
+               
                 <p className="block w-[75%]  animate__animated animate__slideInUp font-normal  lg:text-[15px] text-semibold md:text-base font-semibold sm:text-base mt-5 mb-2 hero-text">
                   Welcome to Cratmate AI Technology Private Limited, operating
                   as Cratmate AI. We're your go-to destination for a complete
@@ -52,7 +55,7 @@ const Hero = () => {
                   domain.
                 </p>
               </div>
-              <div className=" lg:pt-40 md:pt-12 grid grid justify-items-start mb-12   ">
+              <div className=" md:pt-12 grid grid justify-items-start mb-12   ">
                 <img
                   className="w-64  h-64 lg:mt-24 md:mt-2 sm:mt-2 lg:mr-32  lg:mx-2 md:mx-64 animate__animated  animate__flipInY"
                   src="https://i.ibb.co/R2XVz9j/Logo.png"

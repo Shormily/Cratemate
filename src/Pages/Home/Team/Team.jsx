@@ -203,7 +203,7 @@ const Team = () => {
                     className="shadow appearance-none border font-normal  w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
                     id="address"
                     type="text"
-                    placeholder="Username"
+                    placeholder="address"
                     name="address"
                     onChange={handleInputChange}
                     required

@@ -1,6 +1,5 @@
-import 'animate.css';
+import "animate.css";
 import Navbar from "../Navbar/Navbar";
-
 
 const Contacts = () => {
   return (
@@ -13,11 +12,11 @@ const Contacts = () => {
             <h1 className="text-4xl  pt-24 block text-gray-950  font-bold mb-2   ">
               Contact Us
             </h1>
-            <p className="mt-6 block text-gray-950 text-[13px] font-semibold  mb-2   ">
-              Got questions, suggestions, or specific requirements ? We're here
-              to assist you with wholehearted dedication!
+            <p className="mt-6 block text-gray-950 text-[13px] font-semibold  pb-8   ">
+            Got questions, suggestions, or specific requirements ?
+
             </p>{" "}
-            <p className="mt-6 text-[12px] font-bold  cursor-pointer">
+            {/* <p className="mt-6 text-[12px] font-bold  cursor-pointer">
               Operating Hours: 08:00 AM ~ 5:00 PM IST (India Time)
             </p>
             <p className="mt-8   cursor-pointer ">
@@ -25,9 +24,9 @@ const Contacts = () => {
               <span className="mt-6 text-[13px] font-bold  text-[#1d4ed8] cursor-pointer">
                 Email: umesh@cratmate.com
               </span>
-            </p>
+            </p> */}
             <p className="mt-6 text-[13px] font-semibold text-gray-950 cursor-pointer pb-32">
-              Feel free to reach out to us anytime – we're ready to serve you!
+             Feel free to reach out to us anytime – we're ready to serve you!
             </p>
           </div>
         </div>
@@ -140,8 +139,6 @@ const Contacts = () => {
           </div>
         </div>
       </div>
-
-    
     </>
   );
 };

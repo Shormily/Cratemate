@@ -11,7 +11,7 @@ const Servone = () => {
           
           <div className="grid lg:grid-cols-2 md:grid-cols-2 sm:grid-cols-1 max-w-[1240px] m-auto">
             <div className=" pt-8 px-8 ">
-              <p className=" pt-8  text-5xl  font-bold text-[#1d4ed8]   ">
+              <p className=" pt-8  text-5xl  font-bold text-gray-950  ">
                 Our Services
               </p>
               <p
