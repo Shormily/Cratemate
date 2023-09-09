@@ -46,9 +46,9 @@ const Team = () => {
       <TeamDescription />
       <Toaster/>
       <form onSubmit={handleSubmit}>
-        <div className="m-auto max-w-[1240px] flex item-center  justify-center">
-          <div className=" mx-5 p-5   m-auto ">
-            <div className="form-group row">
+        <div className="m-auto max-w-[1030px] flex item-center  justify-center">
+          <div className=" mx-5 p-5 flex-col md:flex-row  w-screen m-3  m-auto ">
+            <div className="form-group row ">
               <div className="grid lg:grid-cols-2 md:grid-cols-1 sm:grid-cols-1 gap-8 ">
                 <div className=" ">
                   <label className="block text-gray-700 text-sm font-semibold mb-2">
@@ -73,7 +73,7 @@ const Team = () => {
                     className="shadow appearance-none border font-normal  w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
                     placeholder="LastName"
                     onChange={handleInputChange}
-                    // required
+                    required
                   />
                 </div>
                 <div className="mt-[-20px] mb-3">
@@ -87,7 +87,7 @@ const Team = () => {
                     placeholder="MM/DD/YYYY"
                     name="birthday"
                     onChange={handleInputChange}
-                    // required
+                    required
                   />
                 </div>
                 <div className="w-full mt-[-20px]">
@@ -138,7 +138,7 @@ const Team = () => {
                     name="experience"
                     placeholder="Experience"
                     onChange={handleInputChange}
-                    // required
+                    required
                   />
                 </div>
                 <div className="w-full mb-3">
@@ -151,7 +151,7 @@ const Team = () => {
                     name="subject"
                     placeholder="Subject"
                     onChange={handleInputChange}
-                    // required
+                    required
                   />
                 </div>
               </div>
@@ -169,7 +169,7 @@ const Team = () => {
                     type="number"
                     name="phone"
                     onChange={handleInputChange}
-                    // required
+                    required
                     placeholder="(000) 000 - 0000"
                   />
                 </div>
@@ -186,7 +186,7 @@ const Team = () => {
                     id="recipientEmail"
                     onChange={handleInputChange}
                     name="email"
-                    // required
+                    required
                   />
                 </div>
               </div>
@@ -206,7 +206,7 @@ const Team = () => {
                     placeholder="Username"
                     name="address"
                     onChange={handleInputChange}
-                    // required
+                    required
                   />
                 </div>
                 <div className=" ">
@@ -217,10 +217,10 @@ const Team = () => {
                   </label>
                   <select
                     id="country"
-                    className="shadow appearance-none border  lg:mt-0 md:mt-[-15%]  md:w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline font-normal "
+                    className="shadow appearance-none border font-normal  w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline "
                     onChange={handleInputChange}
                     name="select"
-                    // required
+                    required
                   >
                     <option selected>Choose a country</option>
                     <option value="Afghanistan">Afghanistan</option>

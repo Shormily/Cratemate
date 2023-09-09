@@ -1,12 +1,12 @@
 * {box-sizing: border-box;}
 
 /* Style the input container */
-.input-container {
+/* .input-container {
   display: flex;
   width: 100%;
   margin-bottom: 15px;
 
-}
+} */
 
 /* Style the form icons */
 .icons {
@@ -39,11 +39,11 @@
 }
 
 /* Style the input fields */
-.input-field {
+/* .input-field {
   width: 100%;
   padding: 10px;
   outline: none;
-}
+} */
 
 
 .inputs{

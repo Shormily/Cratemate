@@ -71,8 +71,8 @@ const NavService = () => {
           onClick={handleNav}
           className={
             nav
-              ? "overflow-y-hidden md:hidden ease-in duration-300 absolute  left-0 top-0 w-full h-screen bg-gray-950 px-4 py-7 flex flex-col"
-              : "absolute top-0 h-screen left-[-100%] ease-in duration-500"
+              ? "overflow-y-hidden md:hidden ease-in z-30 duration-300 absolute  left-0 top-0 w-full h-screen bg-gray-950 px-4 py-7 flex flex-col"
+              : "absolute top-0 h-screen left-[-100%] z-30 ease-in duration-500"
           }
         >
           <h1 className="text-white text-2xl font-bold">Cratemate AI</h1>
