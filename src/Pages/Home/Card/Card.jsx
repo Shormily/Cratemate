@@ -11,7 +11,7 @@ const Card = () => {
       name: " Machine Learning ",
       img: "https://i.ibb.co/3BKGv9v/Frame-1.png",
       description:
-        "Highly experienced our engineers in predictive analytics, big data, and data strategy with backgrounds and skills in data science and applied research to manage machine learning projects.",
+        "Highly experienced engineers in predictive analytics, big data, and data strategy with backgrounds and skills in data science and applied research to manage machine learning projects.",
     },
     {
       name: " Professional Linguists",
@@ -29,7 +29,7 @@ const Card = () => {
   return (
     <>
     <div id="card">
-    <div className="max-w-[1500px] m-auto pl-8 mt-8">
+    <div className="max-w-[1240px] m-auto pl-8 mt-8">
         <h1 className="  pt-8 text-gray-950 text-4xl font-bold mx-3 ">
           Subject Matter Expertise
         </h1>
@@ -39,7 +39,7 @@ const Card = () => {
         </p>
       </div>
 
-      <div className="card mb-12 max-w-[1500px] m-auto">
+      <div className="card mb-12 ">
         {services.map((service) => (
           <>
             <div className="box">

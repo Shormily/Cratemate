@@ -81,9 +81,9 @@ export default function AboutTabs() {
 
   return (
     <div id="tab">
-    <Box className="max-w-[1500px] m-auto  mb-24" sx={{ width: "100%" }}>
+    <Box className="max-w-[1200px]  m-auto  mb-24" sx={{ width: "100%" }}>
       <h1 className=" pt-12 mt-4 text-gray-950 text-4xl  font-bold    mx-3 ">
-      Quality AI training data for the AI lifecycle
+      Accelerate the Development of AI Applications with our Quality AI training data
       </h1>
       <p className="font-medium mt-4 mb-3 text-style text-gray-800 mx-3">
       A complete solution for AI training data sourcing, preparation, and model evaluation.
@@ -144,7 +144,7 @@ export default function AboutTabs() {
                 <img className="rounded-md imges" src={tab.img} alt="" />
               </div>
               <div className="w-full rounded-md  lg:pr-5 px-5 animate__animated animate__zoomIn">
-                <div className="block  font-semibold mt-5 mb-2 text-justify text-gray-900  pr-5  ">
+                <div className="block  font-semibold mt-5 mb-2  text-gray-900  pr-5  ">
                 {tab.folder}
                 </div>
               </div>

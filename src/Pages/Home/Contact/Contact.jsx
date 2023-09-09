@@ -3,28 +3,16 @@ import "./Contact.css";
 const Contact = () => {
   return (
     <>
-      <div id="contact" className="grid lg:grid-cols-3 md:grid-cols-3 gap-8  sm:grid-cols-1 max-w-[1500px] m-auto">
-        <div className=" ">
+      <div id="contact" className="grid lg:grid-cols-3 md:grid-cols-3 gap-8  sm:grid-cols-1 max-w-[1240px] m-auto">
+        <div className="mt-12 ">
           <div className="bg-[#EEE]  px-24 pb-24 ">
             <h1 className="text-4xl  pt-24 block text-gray-700  font-semibold mb-2   ">
-              Request a
-              <br />
-              Consult
+            Get Consultation
             </h1>
             <p className="mt-6 block text-justify text-slate-900 text-[14px] font-medium mb-2   ">
-              If you have any questions or would like more information about our
-              services, please don’t hesitate to reach out. Our team is here to
-              help and answer any questions you may have.
+            If you have any inquiries or require further details regarding our services, please feel free to contact us. Our team is readily available to assist and address any queries you might have.
             </p>
-            <NavLink as={NavLink} to="/team">
-              {" "}
-              <p className="mt-6 text-[14px] font-semibold  text-[#1d4ed8] cursor-pointer">
-                Interested in joining our team ? Click Here
-              </p>
-            </NavLink>
-            <p className="mt-8 font-medium  cursor-pointer pb-32">
-              <span className="mx-3 testimonials  "></span>Request a consult
-            </p>
+           
           </div>
         </div>
 
@@ -110,7 +98,7 @@ const Contact = () => {
               type="password"
               placeholder=""
             />
-            <div className="flex mb-4 max-w-[150px]  m-auto mt-12">
+            <div className="flex mb-8 max-w-[50px]  m-auto ">
               <button
                 type="button"
                 className="text-white bg-gradient-to-br from-indigo-600 to-blue-500 hover:bg-gradient-to-bl focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 font-medium  text-sm p-2.5 text-center inline-flex items-center mr-2 dark:bg-cyan-600 dark:hover:bg-cyan-500 dark:focus:ring-cyan-300"
@@ -131,7 +119,7 @@ const Contact = () => {
                   />
                 </svg>
               </button>
-              <h1 className="mt-2 text-[#1d4ed8] font-semibold ">Submit</h1>
+              <h1 className="mt-2 text-[#1d4ed8] font-semibold">Submit</h1>
             </div>
           </div>
         </div>

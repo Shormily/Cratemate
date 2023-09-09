@@ -46,7 +46,7 @@ export default function AboutTabs() {
       id: 0,
       name: "Secoure Data Access",
       img: "https://i.ibb.co/QnvVnBN/WWD-Secure-Data-Access-png.png",
-      pra: " Cratemate-Ai provides Data Collection services across a variety of data types (speech, text, image, video, mixed) for a range of environments (studio, home, office, in-car, public spaces) from our global crowd of more than 1 million contributors, we provide access to ethically sourced datasets for any use case you may have and is done through our end-to-end managed services. We also offer data sourcing solutions for all organizations, no matter which stage of AI maturity.",
+      pra: " The Cratemate AI provides Data Collection services across a variety of data types (speech, text, image, video, mixed) for a range of environments (studio, home, office, in-car, public spaces) from our global crowd of more than 1 million contributors, we provide access to ethically sourced datasets for any use case you may have and is done through our end-to-end managed services. We also offer data sourcing solutions for all organizations, no matter which stage of AI maturity.",
     },
     {
       id: 1,

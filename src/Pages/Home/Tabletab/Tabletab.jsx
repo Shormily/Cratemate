@@ -83,7 +83,7 @@ export default function AboutTabs() {
 
   return (
     <div id="tabtable" >
- <Box className="max-w-[1500px] m-auto " sx={{ width: "100%" }}>
+ <Box className="max-w-[1200px]  m-auto " sx={{ width: "100%" }}>
       <h1 className=" text-gray-950 text-4xl  font-bold    mx-3 ">
         Secure Data
       </h1>
@@ -151,7 +151,7 @@ export default function AboutTabs() {
                 <h3 className="text-gray-950 text-3xl font-semibold   pt-12">
                   {tab.name}
                 </h3>
-                <div className="block  font-medium text-[15px] mt-5 mb-2 text-justify text-gray-900  pr-5  ">
+                <div className="block  font-medium text-[15px] mt-5 mb-2 text-justyfie text-gray-900  pr-5  ">
                   {tab.pra}
                 </div>
               </div>

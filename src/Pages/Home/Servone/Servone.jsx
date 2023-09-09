@@ -6,17 +6,13 @@ const Servone = () => {
     <>
       <section className="bg-gray-100 pb-8">
         <div>
-          <div className="grid lg:grid-cols-2 gap-24 md:grid-cols-2 sm:grid-cols-1 max-w-[1500px] m-auto">
+          <div className="grid lg:grid-cols-2 md:grid-cols-2 sm:grid-cols-1 max-w-[1240px] m-auto">
             <div className=" pt-8 px-8 ">
               <p className=" pt-8  text-5xl  font-bold text-gray-950  ">
                 Our Services
               </p>
               <p className=" block text-justify  leading-loose text-slate-950 animate__animated animate__fadeInUp  font-medium text-style text-[14px] mt-5 mb-2 ">
-                DTP Service, Data Processing, Image Proceesing, Software
-                Development,Web Design, E-commerce Platform, Multilingual
-                Translation,Big Data,Annotation Service, Data
-                Collection,Transcription, Machine Learning, Artificial
-                Intelligence, and ASR.
+              "Our range of services encompasses a diverse spectrum, including DTP (Desktop Publishing) Service, Data Processing, Image Processing, Software Development, Web Design, E-commerce Platform development, Multilingual Translation, Big Data solutions, Annotation Service, Data Collection, Transcription services, Machine Learning, Artificial Intelligence solutions, and ASR (Automatic Speech Recognition). We pride ourselves on delivering comprehensive solutions that cater to the varied needs of our clients, enabling them to harness the power of cutting-edge technology and data-driven insights."
               </p>
               <div className="flex mb-4 mt-8">
                 <h1 className="mt-2 text-[#1d4ed8] font-semibold  text-1xl mx-2">

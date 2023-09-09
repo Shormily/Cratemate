@@ -67,24 +67,24 @@ const TeamDescription = () => {
 
   const Values = [
     {
-      name: "Diversity",
+      name: "	Diversity",
       explain:
-        "Are you passionate about extracting insights from data and driving decision-making through analytics? Join our data science team and work on projects that redefine possibilities.",
+        "We celebrate diversity in all its forms. Our team comprises individuals with unique perspectives, experiences, and backgrounds.",
     },
     {
-      name: "Data Scientist",
+      name: "	Passion",
       explain:
-        "Are you passionate about extracting insights from data and driving decision-making through analytics? Join our data science team and work on projects that redefine possibilities.",
+        "We're driven by passion and the desire to make a difference. Our team members are enthusiastic about their work and the impact they create.",
     },
     {
-      name: "Data Scientist",
+      name: "	Curiosity",
       explain:
-        "Are you passionate about extracting insights from data and driving decision-making through analytics? Join our data science team and work on projects that redefine possibilities.",
+        "We encourage a curious mindset. As we navigate the evolving landscape of technology, curiosity fuels our continuous learning.",
     },
     {
-      name: "Data Scientist",
+      name: "Team Spirit",
       explain:
-        "Are you passionate about extracting insights from data and driving decision-making through analytics? Join our data science team and work on projects that redefine possibilities.",
+        "Collaboration is in our DNA. We support one another, share knowledge, and celebrate collective achievements.",
     },
   ];
   return (
@@ -95,7 +95,7 @@ const TeamDescription = () => {
         </h1> */}
       
         <h1 className="mx-12 text-center mt-12 font-bold pt-4  pb-5 text-4xl text-gray-950 text-shadow-lg  animate__animated animate__fadeInUp ">
-          Why Work with Us ?
+        What Sets Us Apart?
         </h1>
         <p className="mx-12   text-[15px] font-medium text-center  pb-5  text-slate-950 text-shadow-lg    text-styles animate__animated animate__fadeInUp">
           we are on a mission to unravel the potential of Artificial
@@ -123,7 +123,7 @@ const TeamDescription = () => {
           {positions.map((position) => (
             <>
               <div className="">
-                <h1 className="text-2xl  font-semibold text-[#1d4ed8] ">
+                <h1 className="text-2xl text-center  font-semibold text-[#1d4ed8] ">
                   {position.name}{" "}
                 </h1>
                 <p className="mt-3  text-justify  text-[15px] font-medium   text-slate-950 text-shadow-lg    text-styles">
@@ -141,7 +141,7 @@ const TeamDescription = () => {
           {Values.map((Value) => (
             <>
               <div className="">
-                <h1 className="text-2xl font-semibold  text-[#1d4ed8]">
+                <h1 className="text-2xl text-center font-semibold  text-[#1d4ed8]">
                   {Value.name} {" "}
                 </h1>
                 <p className="mt-3 text-justify  text-[15px] font-medium    text-slate-950 text-shadow-lg    text-styles">
@@ -155,68 +155,26 @@ const TeamDescription = () => {
         <h1 className="mx-12 text-center pt-12 font-extrabold text-4xl text-gray-950 text-shadow-lg">
           Benefits and Perks
         </h1>
-        <div className="mt-12  text-center ">
+        <div className="mt-12  ">
           <div className="">
-            <p className=" text-gray-900 font-bold text-[18px]">
-              <span className="text-2xl text-[#1d4ed8]">1.</span>
-              <span className="mx-3  text-[18px] text-[#1d4ed8] font-medium">
-                Competitive salary packages
-              </span>
-            </p>
-            <p className=" text-gray-900  text-[18px] font-medium">
-              <span className="text-2xl text-[#1d4ed8] font-bold">2.</span>
-              <span className="mx-2 text-[#1d4ed8] font-medium">
-                Flexible work arrangements
-              </span>
-            </p>
-            <p className=" text-gray-900  text-[18px]">
-              <span className="text-2xl  text-[#1d4ed8] font-bold">3.</span>
-              <span className="mx-2 text-[#1d4ed8] font-medium">
-                Health and wellness programs
-              </span>
-            </p>
-            <p className=" text-gray-900  text-[18px]">
-              <span className="text-2xl text-[#1d4ed8] font-bold">4.</span>
-              <span className="mx-2 text-[#1d4ed8] font-medium">
-                Professional development opportunities
-              </span>
-            </p>
-            <p className=" text-gray-900  text-[18px]">
-              <span className="text-2xl text-[#1d4ed8] font-bold">5.</span>
-              <span className="mx-2 text-[#1d4ed8] font-medium">
-                {" "}
-                Innovation-driven culture
-              </span>
-            </p>
-            <p className=" text-gray-900  text-[18px]">
-              <span className="text-2xl text-[#1d4ed8] font-bold">6.</span>
-              <span className="mx-2  text-[#1d4ed8] font-medium">
-                Collaborative and inclusive environment
-              </span>
-            </p>
+          <p className="mx-12 text-center  text-gray-950 font-medium  text-[19px]  pb-12">
+          Our workplace at Cratmate AI is built on a foundation of key principles that prioritize our team's well-being and growth. We offer competitive salary packages to ensure that your contributions are duly recognized. Moreover, we understand the importance of work-life balance, which is why we provide flexible work arrangements. Your health and wellness are paramount, and we support them through dedicated programs. We foster an innovation-driven culture that encourages creative thinking and problem-solving. Our environment is collaborative and inclusive, where diverse perspectives are valued. Additionally, we provide ample opportunities for professional development, ensuring that your career can flourish here. At Cratmate AI, we believe in a holistic approach to work, empowering you to thrive both personally and professionally.
+        </p>
           </div>
         </div>
         <h1 className="mx-12 text-center pt-12 font-extrabold   text-4xl text-gray-950 text-shadow-lg">
-          How to Apply
+         Apply Here!
         </h1>
         <div className="mt-12   mx-12">
-          <div className="font-normal">
-            <p className=" text-gray-950 font-medium text-center text-justify text-[15px]">
-              Are you excited to be part of a team that's shaping the future of
-              AI and data-driven solutions? Join us in creating technology that
-              transforms industries and makes a lasting impact. Explore our
-              current openings and apply today by sending your resume and a
-              cover letter to umesh@cratmate.com. At Cratmate AI, you'll not
-              only be part of a team; you'll be part of a movement that's
-              driving innovation, pushing boundaries, and making waves in the
-              world of technology. Let's shape the future together.
-            </p>
+          <div className="font-normal text-center">
+          <p className="mx-12 text-center  text-gray-950 font-medium  text-[19px]  pb-12">
+          At Cratmate AI, you won't just be part of a team; you'll be part of a movement that's innovating, pushing limits, and making waves in the tech world. Let's shape the future together.
+        </p>
+           
           </div>
         </div>
 
-        <p className="mx-12 text-center  text-[#1d4ed8] font-semibold  text-[19px] pt-8 pb-8">
-          If you want to join our company please fill this form :
-        </p>
+        
       </div>
     </>
   );

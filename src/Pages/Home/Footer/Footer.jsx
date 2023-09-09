@@ -82,24 +82,25 @@ const Footer = () => {
           </div>
           <div className=" mb-2 pt-12 text-[13px]">
             <p className="hover:text-[#4f46e5] font-normal text-style text-white">
-              We are Cratemate Ai
+            We are Cratmate AI
             </p>
             <p className="hover:text-[#4f46e5] font-normal text-style text-white">
-              What We do
+              Join Our team
+            </p>
+            <p className="hover:text-[#4f46e5] font-normal text-style text-white">
+              What We Do
             </p>
             <p className="hover:text-[#4f46e5] font-normal text-style text-white ">
               Press Room
             </p>
-
-            <p className="hover:text-[#4f46e5] font-normal text-style text-white">
-              Partners
-            </p>
-            <p className="hover:text-[#4f46e5] font-normal text-style text-white">
-              Join Us Our team
-            </p>
             <p className="hover:text-[#6366f1] font-normal text-style text-white">
               Contact Us
             </p>
+            <p className="hover:text-[#4f46e5] font-normal text-style text-white">
+              Partners
+            </p>
+            
+            
           </div>
           <div className="font-normal mb-2 pt-12">
             <a className="font-normal text-[13px]" href="#">
@@ -114,8 +115,8 @@ const Footer = () => {
           </div>
 
           <div>
-            <p className="text-white font-semibold text-2xl mt-8  ">
-              About Our Company
+            <p className="text-white text-center font-semibold text-2xl mt-8  ">
+            Our Global Presence
             </p>
             <div className=" grid lg:grid-cols-5 pt-3 pb-4 md:grid-cols-2 sm:grid-cols-1 gap-2 ">
               {services.map((service) => (
@@ -129,7 +130,7 @@ const Footer = () => {
 
             <NavLink as={NavLink} to="/team">
               <button className="btn-col   text-white  py-3 px-4 rounded-full">
-                Join us our team
+                Join  Our team
               </button>
             </NavLink>
           </div>
