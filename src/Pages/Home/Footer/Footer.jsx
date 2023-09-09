@@ -16,7 +16,7 @@ const Footer = () => {
                 </p>
                 <div>
                   <p className="   ">
-                    <span className="font-medium text-neutral-400 mt-3 text-[14px] mb-4">
+                    <span className="font-medium text-neutral-400 mt-3 text-[13px] mb-4">
                       &#169;2023 All right resaved by Cratmate AI Technology
                       Private Limited
                     </span>{" "}
@@ -62,7 +62,7 @@ const Footer = () => {
             </NavLink>
     
           </div>
-          <div className=" mb-2 pt-12">
+          <div className=" mb-2 pt-12 text-[13px]">
             <p className="hover:text-[#4f46e5] font-normal text-style text-white">
               We are cratemate Ai
             </p>
@@ -84,16 +84,16 @@ const Footer = () => {
             </p>
           </div>
           <div className="font-normal mb-2 pt-12">
-          <a className="font-normal mt-3" href="#">
+          <a className="font-normal mt-3 text-[13px]" href="#">
             <i className="fa-solid fa-location-dot  icn"></i> Address : Indore
            India
           </a>
           <br/>
-          <a className="font-normal" href="#">
-          <i className="fa-solid fa-envelope-open-text icn "></i> Outlook : CratmateAI@outlook.com
+          <a className="font-normal text-[13px]" href="#">
+          <i className="fa-solid fa-envelope-open-text icn  "></i>Outlook : CratmateAI@outlook.com
           </a>
           <br/>
-          <a className="font-normal" href="#">
+          <a className="font-normal text-[13px]" href="#">
             <i className="fa-solid fa-envelope   icn"></i> Email :
             cratmateai@gmail.com
           </a>
@@ -101,7 +101,7 @@ const Footer = () => {
 
           <div>
             <p className="text-white font-semibold text-2xl mt-8  ">About Our Company</p>
-            <p className="font-medium text-neutral-400 mt-3 text-[14px] mb-4">
+            <p className="font-medium text-neutral-400 mt-3 text-[13px] mb-4">
               Our company is located in different countries, those countries are
               United Kingdom, China, Japan, India, Vietnam.
             </p>
