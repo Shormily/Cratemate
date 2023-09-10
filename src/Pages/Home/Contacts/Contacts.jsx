@@ -16,7 +16,7 @@ const Contacts = () => {
             Got questions, suggestions, or specific requirements ?
 
             </p>{" "}
-            {/* <p className="mt-6 text-[12px] font-bold  cursor-pointer">
+            {/* <p className="mt-6 text-[15px] font-bold  cursor-pointer">
               Operating Hours: 08:00 AM ~ 5:00 PM IST (India Time)
             </p>
             <p className="mt-8   cursor-pointer ">

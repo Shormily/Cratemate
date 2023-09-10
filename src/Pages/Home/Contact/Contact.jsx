@@ -9,7 +9,7 @@ const Contact = () => {
             <h1 className="text-4xl  pt-24 block text-gray-700  font-semibold mb-2   ">
             Get Consultation
             </h1>
-            <p className="mt-6 block text-justify text-slate-900 text-[14px] font-medium mb-2   ">
+            <p className="mt-6 block text-justify text-slate-900 text-[15px] font-medium mb-2   ">
             If you have any inquiries or require further details regarding our services, please feel free to contact us. Our team is readily available to assist and address any queries you might have.
             </p>
            

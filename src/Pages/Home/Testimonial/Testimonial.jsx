@@ -164,7 +164,7 @@ const Testimonial = () => {
                     <h4 className="block text-orange-600  font-semibold mb-2 mt-3  ">
                       Blog
                     </h4>
-                    <p className="block text-gray-700 text-[12px] font-semibold mb-2 w-64 ">
+                    <p className="block text-gray-700 text-[15px] font-semibold mb-2 w-64 ">
                       {service.description}
                     </p>
 

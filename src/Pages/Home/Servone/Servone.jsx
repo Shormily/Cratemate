@@ -6,12 +6,12 @@ const Servone = () => {
     <>
       <section className="bg-gray-100 pb-8">
         <div>
-          <div className="grid lg:grid-cols-2 md:grid-cols-2 sm:grid-cols-1 max-w-[1240px] m-auto">
+          <div className="grid lg:grid-cols-2 md:grid-cols-2 sm:grid-cols-1 gap-24 max-w-[1240px] m-auto">
             <div className=" pt-8 px-8 ">
               <p className=" pt-8  text-5xl  font-bold text-gray-950  ">
                 Our Services
               </p>
-              <p className=" block text-justify  leading-loose text-slate-950 animate__animated animate__fadeInUp  font-medium text-style text-[14px] mt-5 mb-2 ">
+              <p className=" block text-justify   text-slate-950 animate__animated animate__fadeInUp  font-medium text-style text-[15px] mt-5 mb-2 ">
               "Our range of services encompasses a diverse spectrum, including DTP (Desktop Publishing) Service, Data Processing, Image Processing, Software Development, Web Design, E-commerce Platform development, Multilingual Translation, Big Data solutions, Annotation Service, Data Collection, Transcription services, Machine Learning, Artificial Intelligence solutions, and ASR (Automatic Speech Recognition). We pride ourselves on delivering comprehensive solutions that cater to the varied needs of our clients, enabling them to harness the power of cutting-edge technology and data-driven insights."
               </p>
               <div className="flex mb-4 mt-8">
@@ -42,7 +42,7 @@ const Servone = () => {
             </div>
             <div
               className="animate__animated animate__fadeInRight
-      mt-8 mb-8"
+      mt-24 mb-8"
             >
               <div className="flex  mt-8  mb-2 lg:w-full sm:w-96 ">
                 <img

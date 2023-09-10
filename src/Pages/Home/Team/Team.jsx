@@ -19,7 +19,7 @@ const Team = () => {
 
     // Cratemate-Aid all form data to FormData object
     console.log(formData);
-    fetch("http://localhost:5000/send-email", {
+    fetch("https://cratemate-server-shormily.onrender.com/send-email", {
       method: "POST",
       body: JSON.stringify(formData),
       headers: {

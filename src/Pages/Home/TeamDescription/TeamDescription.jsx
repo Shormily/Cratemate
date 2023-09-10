@@ -157,7 +157,7 @@ const TeamDescription = () => {
         </h1>
         <div className="mt-12  ">
           <div className="">
-          <p className="mx-12 text-center  text-gray-950 font-medium  text-[19px]  pb-12">
+          <p className="mx-12 text-center  text-gray-950 font-medium  text-[15px]  pb-12">
           Our workplace at Cratmate AI is built on a foundation of key principles that prioritize our team's well-being and growth. We offer competitive salary packages to ensure that your contributions are duly recognized. Moreover, we understand the importance of work-life balance, which is why we provide flexible work arrangements. Your health and wellness are paramount, and we support them through dedicated programs. We foster an innovation-driven culture that encourages creative thinking and problem-solving. Our environment is collaborative and inclusive, where diverse perspectives are valued. Additionally, we provide ample opportunities for professional development, ensuring that your career can flourish here. At Cratmate AI, we believe in a holistic approach to work, empowering you to thrive both personally and professionally.
         </p>
           </div>
@@ -167,7 +167,7 @@ const TeamDescription = () => {
         </h1>
         <div className="mt-12   mx-12">
           <div className="font-normal text-center">
-          <p className="mx-12 text-center  text-gray-950 font-medium  text-[19px]  pb-12">
+          <p className="mx-12 text-center  text-gray-950 font-medium  text-[15px]  pb-12">
           At Cratmate AI, you won't just be part of a team; you'll be part of a movement that's innovating, pushing limits, and making waves in the tech world. Let's shape the future together.
         </p>
            
