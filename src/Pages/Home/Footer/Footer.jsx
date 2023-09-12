@@ -41,7 +41,7 @@ const Footer = () => {
               <div>
                 <p className="   ">
                   <span className="font-medium text-neutral-400 mt-3 text-[13px] mb-4">
-                    &#169;2023 All right resaved by Cratmate AI Technology
+                    &#169;2023 All right resaved by Cratmate AI Technology <br/>
                     Private Limited
                   </span>{" "}
                 </p>
@@ -54,7 +54,7 @@ const Footer = () => {
               <ul className="font-medium flex md:order-2   md:p-0 mt-4   md:flex-row  md:mt-0     ">
                 <li className="mt-3">
                   <a
-                    href=" https://www.linkedin.com/company/cratmateai-technology/ "
+                    href=" https://www.linkedin.com/company/cratmateai-technology/?viewAsMember=true "
                     target="_blank"
                   >
                     <i className="fa-brands fa-linkedin-in icn"></i>
@@ -98,7 +98,7 @@ const Footer = () => {
             </NavLink>
             <NavLink as={NavLink} to="/team">
               <p className="hover:text-[#4f46e5] font-normal text-style text-white">
-                Join Our team
+                Join Our Team
               </p>
             </NavLink>
             <NavLink as={NavLink} to="/service">
@@ -125,11 +125,11 @@ const Footer = () => {
             <p className="text-white text-center font-semibold text-2xl mt-8  ">
               Our Global Presence
             </p>
-            <div className="grid lg:grid-cols-6  pt-3 pb-4 md:grid-cols-2 sm:grid-cols-1  ">
+            <div className="grid lg:grid-cols-6  pt-3 pb-4 md:grid-cols-6 sm:grid-cols-1  ">
               {services.map((service) => (
                 <>
                   <div>
-                    <img className="w-12" src={service.img} alt="" />
+                    <img className="w-12 mb-2 mt-1" src={service.img} alt="" />
                   </div>
                 </>
               ))}
@@ -137,7 +137,7 @@ const Footer = () => {
             <div className="flex justify-center item-center">
               <NavLink as={NavLink} to="/team">
                 <button className="btn-col   text-white  py-3 px-8 rounded-full">
-                  Join Our team
+                  Join Our Team
                 </button>
               </NavLink>
               <NavLink as={NavLink} to="/contact">

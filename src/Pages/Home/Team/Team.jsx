@@ -1,7 +1,9 @@
 // import { toast } from "react-hot-toast";
+import "animate.css";
 import { Toaster, toast } from "react-hot-toast";
 import Navbar from "../Navbar/Navbar";
 import TeamDescription from "../TeamDescription/TeamDescription";
+import Swal from 'sweetalert2'
 import "./Team.css";
 
 import { useState } from "react";
@@ -30,7 +32,17 @@ const Team = () => {
         const user = result.user;
         console.log(user);
         
-        toast.success('Send email successfully!');
+        Swal.fire({
+          icon: 'success',
+          title: 'Thank you !',
+          text:"Your submission has been received",
+          showClass: {
+            popup: 'animate__animated animate__fadeInDown'
+          },
+          hideClass: {
+            popup: 'animate__animated animate__fadeOutUp'
+          }
+        })
       })
       .catch((error) => {
         // error.message;
@@ -56,10 +68,10 @@ const Team = () => {
                   </label>
                   <input
                     type="text"
-                    name="firstname"
-                    className="shadow appearance-none border font-normal  w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
+                    name="firstname"              
                     placeholder="FirstName"
                     onChange={handleInputChange}
+                    className="shadow appearance-none border font-normal  w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
                     required
                   />
                 </div>

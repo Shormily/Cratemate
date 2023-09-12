@@ -6,7 +6,7 @@ const Servone = () => {
     <>
       <section className="bg-gray-100 pb-8">
         <div>
-          <div className="grid lg:grid-cols-2 md:grid-cols-2 sm:grid-cols-1 gap-24 max-w-[1240px] m-auto">
+          <div className="grid lg:grid-cols-2 md:grid-cols-2 sm:grid-cols-1 lg:gap-24 md:gap-5 sm:gap-2  max-w-[1240px] m-auto">
             <div className=" pt-8 px-8 ">
               <p className=" pt-8  text-5xl  font-bold text-gray-950  ">
                 Our Services
@@ -42,36 +42,36 @@ const Servone = () => {
             </div>
             <div
               className="animate__animated animate__fadeInRight
-      mt-24 mb-8"
+                  mx-8   mt-24 mb-8"
             >
-              <div className="flex  mt-8  mb-2 lg:w-full sm:w-96 ">
+              <div className="flex  lg:mt-8 md:mt-2 sm:mt-1  mb-2 lg:w-full  ">
                 <img
                   src="https://i.ibb.co/hm72vSb/CMYK-Blue-LVL-1-OTS-Training-Datasets-png.png"
-                  className="w-24 h-24 mx-8 imges"
+                  className="w-24 h-24 lg:mx-8 md:mx-5 sm:mx-2 imges"
                   alt=""
                 />
 
                 <img
                   src="https://i.ibb.co/nj8prs9/ezgif-com-webp-to-png.png "
-                  className="w-24 h-24  imges"
+                  className="w-24 h-24 mr-8 imges"
                   alt=""
                 />
                 <img
                   src="https://i.ibb.co/xJyQx5Y/CMYK-Blue-LVL-1-Big-Data-png.png"
-                  className="w-24 h-24 ml-7 imges"
+                  className="w-24 h-24  imges"
                   alt=""
                 />
               </div>
 
-              <div className="flex mt-3 lg:w-full sm:w-96">
+              <div className="flex mt-3 lg:w-full ">
                 <img
                   src="https://i.ibb.co/dtw6k5X/CMYK-Blue-LVL-1-Crowd-Platform-png.png"
-                  className="w-24 h-24 mx-8 imges"
+                  className="w-24 h-24 lg:mx-8 md:mx-2 sm:mx-2 imges"
                   alt=""
                 />
                 <img
                   src="https://i.ibb.co/kJsygZd/CMYK-Blue-LVL-1-Secure-in-Saas-Customer-Internal-Workers-png.png"
-                  className="w-24 h-24 imges"
+                  className="w-24 h-24 mx-3 imges"
                   alt=""
                 />
 
