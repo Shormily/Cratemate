@@ -105,7 +105,7 @@ const TeamDescription = () => {
           Intelligence, Big Data, and Machine Learning, and we're looking for
           exceptional individuals to join us in this exciting journey.
         </p>
-        <div className="grid lg:grid-cols-3 gap-12 md:grid-cols-2 sm:grid-cols-1 mt-12 mx-12 animate__animated animate__fadeInUp">
+        <div className="grid lg:grid-cols-3 gap-12 md:grid-cols-3 sm:grid-cols-1 mt-12 mx-12 animate__animated animate__fadeInUp">
           {services.map((service) => (
             <>
               <div className="">
@@ -119,24 +119,7 @@ const TeamDescription = () => {
             </>
           ))}
         </div>
-        <h1 className="mx-12 text-center font-bold pt-12  text-4xl text-gray-950 text-shadow-lg  ">
-          Open Positions
-        </h1>
-        <div className="grid lg:grid-cols-3 mb-8 gap-12 md:grid-cols-2 sm:grid-cols-1 mt-12   mx-12">
-          {positions.map((position) => (
-            <>
-              <div className="">
-                <h1 className="text-2xl text-center  font-semibold text-[#1d4ed8] ">
-                  {position.name}{" "}
-                </h1>
-                <p className="mt-3  text-justify  text-[15px] font-medium   text-slate-950 text-shadow-lg    text-styles">
-                  {" "}
-                  {position.explain}
-                </p>
-              </div>
-            </>
-          ))}
-        </div>
+       
         <h1 className="mx-12 text-center font-extrabold pt-12  text-4xl text-gray-950 text-shadow-lg">
           What We Value
         </h1>
@@ -164,6 +147,24 @@ const TeamDescription = () => {
           Our workplace at Cratmate AI is built on a foundation of key principles that prioritize our team's well-being and growth. We offer competitive salary packages to ensure that your contributions are duly recognized. Moreover, we understand the importance of work-life balance, which is why we provide flexible work arrangements. Your health and wellness are paramount, and we support them through dedicated programs. We foster an innovation-driven culture that encourages creative thinking and problem-solving. Our environment is collaborative and inclusive, where diverse perspectives are valued. Additionally, we provide ample opportunities for professional development, ensuring that your career can flourish here. At Cratmate AI, we believe in a holistic approach to work, empowering you to thrive both personally and professionally.
         </p>
           </div>
+        </div>
+        <h1 className="mx-12 text-center font-bold pt-12  text-4xl text-gray-950 text-shadow-lg  ">
+          Open Positions
+        </h1>
+        <div className="grid lg:grid-cols-3 mb-8 gap-12 md:grid-cols-3 sm:grid-cols-1 mt-12   mx-12">
+          {positions.map((position) => (
+            <>
+              <div className="">
+                <h1 className="text-2xl text-center  font-semibold text-[#1d4ed8] ">
+                  {position.name}{" "}
+                </h1>
+                <p className="mt-3  text-justify  text-[15px] font-medium   text-slate-950 text-shadow-lg    text-styles">
+                  {" "}
+                  {position.explain}
+                </p>
+              </div>
+            </>
+          ))}
         </div>
         <h1 className="mx-12 text-center pt-12 font-extrabold   text-4xl text-gray-950 text-shadow-lg">
          Apply Here!
