@@ -54,7 +54,6 @@ const Team = () => {
   return (
     <>
       <Navbar />
-
       <TeamDescription />
       <Toaster/>
       <form onSubmit={handleSubmit}>

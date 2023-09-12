@@ -2,25 +2,25 @@ import "animate.css";
 const TeamDescription = () => {
   const services = [
     {
-      name: "Innovate",
+      name: "Innovation and Creativity",
 
       description:
         "We encourage innovation and creativity, providing you with the freedom to explore new ideas and push the boundaries of what's possible.",
     },
     {
-      name: "Collaborate",
+      name: "Collaborative Culture",
       description:
         "Collaboration is at the heart of our culture. We believe that diverse minds working together lead to breakthrough solutions.",
     },
 
     {
-      name: "	Impact",
+      name: "Real-World Impact",
 
       description:
         "Our work has a real impact on industries and society as a whole. Join us in creating solutions that transform the way we live, work, and interact.",
     },
     {
-      name: "Growth",
+      name: "Growth and Development",
       description:
         "Your growth is our priority. We provide continuous learning opportunities, mentorship, and a supportive environment to help you reach your full potential.",
     },
@@ -28,6 +28,11 @@ const TeamDescription = () => {
       name: "Cutting-Edge Technology ",
       description:
         "Be at the forefront of technology. Work with the latest tools, platforms, and frameworks to solve complex challenges. ",
+    },
+    {
+      name: "Mission-Driven Approach",
+      description:
+        "Our commitment to unraveling the potential of AI, Big Data, and Machine Learning sets us apart. This mission-driven approach highlights our dedication to using advanced technologies for the betterment of society.",
     },
   ];
 
@@ -90,9 +95,7 @@ const TeamDescription = () => {
   return (
     <>
       <div className="max-w-[1650px] m-auto  ">
-        {/* <h1 className="mx-12 pt-12  pb-8 text-center text-5xl text-gray-950 text-shadow-lg  animate__animated animate__fadeInUp font-extrabold ">
-         
-        </h1> */}
+        
       
         <h1 className="mx-12 text-center mt-12 font-bold pt-4  pb-5 text-4xl text-gray-950 text-shadow-lg  animate__animated animate__fadeInUp ">
         What Sets Us Apart?
@@ -119,7 +122,7 @@ const TeamDescription = () => {
         <h1 className="mx-12 text-center font-bold pt-12  text-4xl text-gray-950 text-shadow-lg  ">
           Open Positions
         </h1>
-        <div className="grid lg:grid-cols-4 mb-8 gap-12 md:grid-cols-2 sm:grid-cols-1 mt-12   mx-12">
+        <div className="grid lg:grid-cols-3 mb-8 gap-12 md:grid-cols-2 sm:grid-cols-1 mt-12   mx-12">
           {positions.map((position) => (
             <>
               <div className="">
