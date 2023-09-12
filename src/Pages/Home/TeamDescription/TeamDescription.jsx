@@ -101,9 +101,7 @@ const TeamDescription = () => {
         What Sets Us Apart?
         </h1>
         <p className="mx-12   text-[15px] font-medium text-center  pb-5  text-slate-950 text-shadow-lg    text-styles animate__animated animate__fadeInUp">
-          we are on a mission to unravel the potential of Artificial
-          Intelligence, Big Data, and Machine Learning, and we're looking for
-          exceptional individuals to join us in this exciting journey.
+        We are on a mission to unravel the potential of Artificial Intelligence, Big Data, and Machine Learning, and we're looking for exceptional individuals to join us in this exciting journey.
         </p>
         <div className="grid lg:grid-cols-3 gap-12 md:grid-cols-3 sm:grid-cols-1 mt-12 mx-12 animate__animated animate__fadeInUp">
           {services.map((service) => (

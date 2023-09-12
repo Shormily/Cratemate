@@ -41,8 +41,7 @@ const Footer = () => {
               <div>
                 <p className="   ">
                   <span className="font-medium text-neutral-400 mt-3 text-[13px] mb-4">
-                    &#169;2023 All right resaved by Cratmate AI Technology <br/>
-                    Private Limited
+                    &#169;2023 All right resaved by Cratmate AI Technology Private Limited
                   </span>{" "}
                 </p>
               </div>
