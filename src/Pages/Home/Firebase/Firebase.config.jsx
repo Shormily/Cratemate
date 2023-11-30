@@ -5,12 +5,12 @@ import { initializeApp } from "firebase/app";
 
 // Your web app's Firebase configuration
 const firebaseConfig = {
-  apiKey: "AIzaSyAthi0DcBS7Bc1L8B0EHVhlleDRjTWx45w",
-  authDomain: "ai-project-1b1e4.firebaseapp.com",
-  projectId: "ai-project-1b1e4",
-  storageBucket: "ai-project-1b1e4.appspot.com",
-  messagingSenderId: "1090218649640",
-  appId: "1:1090218649640:web:f704149ea0cc7b16886d1d"
+  apiKey: "AIzaSyC1o8UEte2kjT7FYk-wyqR2LGktdCbYFlA",
+  authDomain: "cratemate-ai-c5edc.firebaseapp.com",
+  projectId: "cratemate-ai-c5edc",
+  storageBucket: "cratemate-ai-c5edc.appspot.com",
+  messagingSenderId: "929635831151",
+  appId: "1:929635831151:web:e22a84ea76a6fce65b2c9a"
 };
 
 // Initialize Firebase

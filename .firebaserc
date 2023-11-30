@@ -1,5 +1,8 @@
 {
   "projects": {
-    "default": "ai-project-71dbc"
-  }
+    "default": "cratemate-ai-c5edc",
+    "y": "cratemate-ai-c5edc"
+  },
+  "targets": {},
+  "etags": {}
 }
